@@ -1,5 +1,5 @@
 <template>
-  <nav></nav>
+  <LabHeader />
 
   <main>
     <RouterView />
@@ -10,11 +10,17 @@
 
 <script setup lang="ts">
 import LabFooter from './components/LabFooter.vue';
+import LabHeader from './components/LabHeader.vue';
 
 </script>
 
 <!-- Global style here -->
 <style lang="scss">
+@font-face {
+  font-family: "Jersey";
+  src: url("./assets/fonts/Jersey\ 10.ttf");
+}
+
 html, body {
   padding: 0;
   margin: 0;

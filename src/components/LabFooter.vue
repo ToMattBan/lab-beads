@@ -1,9 +1,9 @@
 <template>
   <footer>
-    <figure>
+    <figure class="nice-text">
       <figcaption>Laboratório Pixel Beads</figcaption>
       <ul>
-        <li>🌟 Peças feitas à mão com todo carinho</li>
+        <li>🌟 As melhores beads do mercado</li>
         <li>📭 Somos de Olinda-PE</li>
         <li>🚚 Entregas para todo o Brasil</li>
         <li>🧪 Encomendas via DM no Insta ou Whatsapp</li>
@@ -15,14 +15,14 @@
       <ul class="social-links">
         <li>
           <a href="https://www.instagram.com/laboratoriopixel/">
-            <img src="../assets/icons/instagram-icon.svg" class="footer-icons"/>
+            <img src="../assets/icons/instagram-icon.svg" class="footer-icons" />
             <span>@laboratoriopixel</span>
           </a>
         </li>
 
         <li>
           <a href="https://wa.me/5581996996117">
-            <img src="../assets/icons/whatsapp-icon.svg" class="footer-icons"/>
+            <img src="../assets/icons/whatsapp-icon.svg" class="footer-icons" />
             <span>+55 81 99699 6117</span>
           </a>
         </li>
@@ -36,18 +36,28 @@ footer {
   background-color: #cbdbfc;
   display: flex;
   justify-content: space-around;
+
+  @media screen and (max-width: 900px) {
+    flex-direction: column;
+    text-align: center;
+  }
 }
 
 figure {
   figcaption {
-    font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+    letter-spacing: 3px;
+    font-family: "Jersey";
   }
 
   ul {
     margin-bottom: 0;
     padding: 0;
     list-style: none;
+
+    li {
+      margin-bottom: 8px;
+    }
 
     &.social-links {
       a {
@@ -59,11 +69,21 @@ figure {
         color: black;
         text-transform: none;
         font-style: normal;
+
+        @media screen and (max-width: 900px) {
+          justify-content: center;
+        }
       }
 
       .footer-icons {
         max-width: 30px;
       }
+    }
+  }
+
+  &.nice-text {
+    @media screen and (max-width: 900px) {
+      display: none;
     }
   }
 }
