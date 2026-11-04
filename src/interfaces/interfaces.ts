@@ -1,6 +1,5 @@
 export interface IColor {
   hexaCode: string;
-  name: string;
   cod: string;
 }
 
