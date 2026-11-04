@@ -1,14 +1,21 @@
-import eslint from '@eslint/js';
+// @ts-check
 import tsEslint from 'typescript-eslint';
 import stylistic from '@stylistic/eslint-plugin';
+import vueEslintParser from 'vue-eslint-parser';
 
 const defaultIgnores = [
-  // Ignore compiled files
+  // Ignore compiled Vue files
   'dist/**',
 ];
 
 const defaultFiles = [
+  '**/*.js',
+  '**/*.mjs',
+  '**/*.cjs',
   '**/*.ts',
+  '**/*.mts',
+  '**/*.cts',
+  '**/*.vue',
 ];
 
 const maxLenOptions = {
@@ -26,17 +33,16 @@ const maxLenOptions = {
 
 export default [
   { ignores: defaultIgnores },
-  eslint.configs.recommended,
   ...tsEslint.configs.recommended,
   stylistic.configs.recommended,
   {
     languageOptions: {
+      parser: vueEslintParser,
       parserOptions: {
+        parser: tsEslint.parser,
         sourceType: 'module',
         ecmaVersion: 'latest',
         ecmaFeatures: { jsx: false },
-        projectService: true,
-        tsconfigRootDir: import.meta.dirname,
       },
     },
     files: defaultFiles,
@@ -46,13 +52,13 @@ export default [
       ***********************/
       'block-scoped-var': 'error',
       'consistent-this': 'error',
-      // 'curly': ['error', 'all'],
+      'curly': ['error', 'all'],
       'default-case-last': 'error',
       'default-param-last': 'warn',
       'dot-notation': 'warn',
       'eqeqeq': ['error', 'smart'],
       'no-case-declarations': 'error',
-      // 'no-console': ['warn', { allow: ['warn', 'error'] }],
+      'no-console': ['warn', { allow: ['warn', 'error'] }],
       'no-duplicate-imports': 'warn',
       'no-empty-function': 'warn',
       'no-lonely-if': 'error',
@@ -144,10 +150,138 @@ export default [
         'ts-ignore': 'allow-with-description',
         'ts-expect-error': 'allow-with-description',
       }],
+
+      /************************
+      *  Vue specific rules  *
+      ***********************/
+      'vue/attribute-hyphenation': ['error', 'never'],
+      'vue/attributes-order': ['error', {
+        order: [
+          'GLOBAL',
+          'UNIQUE',
+          'TWO_WAY_BINDING',
+          'LIST_RENDERING',
+          'CONDITIONALS',
+          'DEFINITION',
+          'RENDER_MODIFIERS',
+          'SLOT',
+          'OTHER_DIRECTIVES',
+          'OTHER_ATTR',
+          'EVENTS',
+          'CONTENT',
+        ],
+        alphabetical: false,
+        sortLineLength: true,
+      }],
+      'vue/block-order': ['error', { order: ['template', 'script', 'style'] }],
+      'vue/block-lang': ['error', { script: { lang: 'ts' }, style: { lang: 'scss' } }],
+      'vue/component-api-style': ['error', ['script-setup']],
+      'vue/component-definition-name-casing': ['error', 'PascalCase'],
+      'vue/first-attribute-linebreak': ['error', {
+        singleline: 'beside',
+        multiline: 'below',
+      }],
+      'vue/html-closing-bracket-newline': ['error', {
+        singleline: 'never',
+        multiline: 'always',
+      }],
+      'vue/html-closing-bracket-spacing': ['error', { selfClosingTag: 'always' }],
+      'vue/html-indent': 'warn',
+      'vue/html-quotes': 'warn',
+      'vue/html-self-closing': ['error', {
+        html: {
+          void: 'never',
+          normal: 'never',
+          component: 'always',
+        },
+        svg: 'always',
+        math: 'always',
+      }],
+      'vue/max-attributes-per-line': ['error', {
+        singleline: 8,
+        multiline: 4,
+      }],
+      'vue/max-len': ['warn', {
+        ...maxLenOptions,
+        ignoreHTMLAttributeValues: false,
+        ignoreHTMLTextContents: true,
+        template: 140,
+      }],
+      'vue/multiline-html-element-content-newline': 'warn',
+      'vue/mustache-interpolation-spacing': 'warn',
+      'vue/no-multi-spaces': 'warn',
+      'vue/no-reserved-component-names': 'error',
+      'vue/no-spaces-around-equal-signs-in-attribute': 'warn',
+      'vue/no-unused-components': 'warn',
+      'vue/no-v-html': 'warn',
+      'vue/order-in-components': ['off', {
+        order: [
+          'el',
+          'name',
+          'key',
+          'parent',
+          'functional',
+          ['delimiters', 'comments'],
+          ['components', 'directives', 'filters'],
+          'extends',
+          'mixins',
+          ['provide', 'inject'],
+          'ROUTER_GUARDS',
+          'layout',
+          'middleware',
+          'validate',
+          'scrollToTop',
+          'transition',
+          'loading',
+          'inheritAttrs',
+          'model',
+          ['props', 'propsData'],
+          'emits',
+          'setup',
+          'asyncData',
+          'data',
+          'fetch',
+          'head',
+          'computed',
+          'watch',
+          'watchQuery',
+          'LIFECYCLE_HOOKS',
+          'methods',
+          ['template', 'render'],
+          'renderError',
+        ],
+      }],
+      'vue/require-default-prop': 'off',
+      'vue/script-indent': ['error', 2, {
+        baseIndent: 1,
+        switchCase: 1,
+        ignores: [],
+      }],
+      'vue/singleline-html-element-content-newline': ['off', {}],
+      'vue/v-on-event-hyphenation': ['error', 'never', {
+        autofix: true,
+        ignore: [],
+        ignoreTags: [],
+      }],
     },
   },
   {
-    files: ['src/utils/sets/*.ts'],
-    rules: { '@stylistic/array-element-newline': 'off' },
+    // Specific rules for vue files (Need to overwrite others to work ok)
+    files: ['**/*.vue'],
+    rules: {
+      '@stylistic/indent': 'off',
+      '@stylistic/indent-binary-ops': 'off',
+      '@stylistic/max-len': 'off',
+    },
+  },
+  {
+    // Adding rule in a specific folder
+    files: ['app/components/*.vue'],
+    rules: { 'vue/multi-word-component-names': 'error' },
+  },
+  {
+    // Removing rule in a specific folder
+    files: ['scripts/*.ts'],
+    rules: { 'no-console': 'off' },
   },
 ];

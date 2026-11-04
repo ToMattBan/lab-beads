@@ -4,10 +4,12 @@
   <ul>
     <li v-for="group in colorsGroup">
       <figure>
-        <div class="colors-container">
-          <div v-for="color in group.colors" class="color-square" :style="`background-color: ${color.hexaCode};`" />
-        </div>
-        <figcaption>{{ group.name }}</figcaption>
+          <RouterLink :to="`/paleta?name=${group.name}`">
+          <div class="colors-container">
+            <div v-for="color in group.colors" class="color-square" :style="`background-color: ${color.hexaCode};`" />
+          </div>
+          <figcaption>{{ group.name }}</figcaption>
+        </RouterLink>
       </figure>
     </li>
   </ul>
@@ -35,9 +37,14 @@ ul {
   max-width: 900px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-
+  
   @media screen and (max-width: 600px) {
     grid-template-columns: repeat(1, 1fr);
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
   }
 }
 
@@ -63,7 +70,7 @@ figure {
       height: 24px;
     }
   }
-  
+
   figcaption {
     margin-top: 8px;
     font-size: 1.6rem;

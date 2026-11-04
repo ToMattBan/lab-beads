@@ -13,7 +13,7 @@
 
 <style scoped>
 header {
-  background-color: #cbdbfc;
+  background-color: var(--color-base);
   padding: 12px;
 
   position: sticky;

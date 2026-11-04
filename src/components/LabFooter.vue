@@ -33,7 +33,7 @@
 
 <style scoped>
 footer {
-  background-color: #cbdbfc;
+  background-color: var(--color-base);
   display: flex;
   justify-content: space-around;
 
