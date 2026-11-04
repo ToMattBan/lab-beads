@@ -1,0 +1,1127 @@
+[
+  {
+    "name": "Paleta A",
+    "colors": [
+      {
+        "hexaCode": "#000000",
+        "name": "Preto",
+        "cod": "A01"
+      },
+      {
+        "hexaCode": "#B8B8B8",
+        "name": "Cinza Claro",
+        "cod": "A02"
+      },
+      {
+        "hexaCode": "#FFFFFF",
+        "name": "Branco",
+        "cod": "A03"
+      },
+      {
+        "hexaCode": "transparent",
+        "name": "Transparente / Xadrez",
+        "cod": "A04"
+      },
+      {
+        "hexaCode": "#9C5A3C",
+        "name": "Marrom",
+        "cod": "A05"
+      },
+      {
+        "hexaCode": "#002D91",
+        "name": "Azul Escuro",
+        "cod": "A06"
+      },
+      {
+        "hexaCode": "#4B0082",
+        "name": "Roxo",
+        "cod": "A07"
+      },
+      {
+        "hexaCode": "#D3B6F2",
+        "name": "Lilás",
+        "cod": "A08"
+      },
+      {
+        "hexaCode": "#C60C30",
+        "name": "Vermelho",
+        "cod": "A09"
+      },
+      {
+        "hexaCode": "#0070C0",
+        "name": "Azul",
+        "cod": "A10"
+      },
+      {
+        "hexaCode": "#4BC3F0",
+        "name": "Ciano",
+        "cod": "A11"
+      },
+      {
+        "hexaCode": "#A0C4E8",
+        "name": "Azul Bebê",
+        "cod": "A12"
+      },
+      {
+        "hexaCode": "#FF6B6B",
+        "name": "Salmão",
+        "cod": "A13"
+      },
+      {
+        "hexaCode": "#006B3C",
+        "name": "Verde Escuro",
+        "cod": "A14"
+      },
+      {
+        "hexaCode": "#8DB040",
+        "name": "Verde Oliva",
+        "cod": "A15"
+      },
+      {
+        "hexaCode": "#E8E820",
+        "name": "Amarelo Limão",
+        "cod": "A16"
+      },
+      {
+        "hexaCode": "#FF7F00",
+        "name": "Laranja",
+        "cod": "A17"
+      },
+      {
+        "hexaCode": "#FFC000",
+        "name": "Amarelo Ouro",
+        "cod": "A18"
+      },
+      {
+        "hexaCode": "#FFFF00",
+        "name": "Amarelo",
+        "cod": "A19"
+      },
+      {
+        "hexaCode": "#FFFFA0",
+        "name": "Amarelo Pastel",
+        "cod": "A20"
+      },
+      {
+        "hexaCode": "#FF8A9F",
+        "name": "Rosa",
+        "cod": "A21"
+      },
+      {
+        "hexaCode": "#FFC0CB",
+        "name": "Rosa Claro",
+        "cod": "A22"
+      },
+      {
+        "hexaCode": "#FFE4E1",
+        "name": "Rosa Pálido",
+        "cod": "A23"
+      },
+      {
+        "hexaCode": "#FFE4C4",
+        "name": "Pêssego",
+        "cod": "A24"
+      }
+    ]
+  },
+  {
+    "name": "Paleta B",
+    "colors": [
+      {
+        "hexaCode": "#000000",
+        "name": "Preto",
+        "cod": "A01"
+      },
+      {
+        "hexaCode": "#B8B8B8",
+        "name": "Cinza Claro",
+        "cod": "A02"
+      },
+      {
+        "hexaCode": "#FFFFFF",
+        "name": "Branco",
+        "cod": "A03"
+      },
+      {
+        "hexaCode": "transparent",
+        "name": "Transparente / Xadrez",
+        "cod": "A04"
+      },
+      {
+        "hexaCode": "#9C5A3C",
+        "name": "Marrom",
+        "cod": "A05"
+      },
+      {
+        "hexaCode": "#002D91",
+        "name": "Azul Escuro",
+        "cod": "A06"
+      },
+      {
+        "hexaCode": "#4B0082",
+        "name": "Roxo",
+        "cod": "A07"
+      },
+      {
+        "hexaCode": "#D3B6F2",
+        "name": "Lilás",
+        "cod": "A08"
+      },
+      {
+        "hexaCode": "#C60C30",
+        "name": "Vermelho",
+        "cod": "A09"
+      },
+      {
+        "hexaCode": "#0070C0",
+        "name": "Azul",
+        "cod": "A10"
+      },
+      {
+        "hexaCode": "#4BC3F0",
+        "name": "Ciano",
+        "cod": "A11"
+      },
+      {
+        "hexaCode": "#A0C4E8",
+        "name": "Azul Bebê",
+        "cod": "A12"
+      },
+      {
+        "hexaCode": "#FF6B6B",
+        "name": "Salmão",
+        "cod": "A13"
+      },
+      {
+        "hexaCode": "#006B3C",
+        "name": "Verde Escuro",
+        "cod": "A14"
+      },
+      {
+        "hexaCode": "#8DB040",
+        "name": "Verde Oliva",
+        "cod": "A15"
+      },
+      {
+        "hexaCode": "#E8E820",
+        "name": "Amarelo Limão",
+        "cod": "A16"
+      },
+      {
+        "hexaCode": "#FF7F00",
+        "name": "Laranja",
+        "cod": "A17"
+      },
+      {
+        "hexaCode": "#FFC000",
+        "name": "Amarelo Ouro",
+        "cod": "A18"
+      },
+      {
+        "hexaCode": "#FFFF00",
+        "name": "Amarelo",
+        "cod": "A19"
+      },
+      {
+        "hexaCode": "#FFFFA0",
+        "name": "Amarelo Pastel",
+        "cod": "A20"
+      },
+      {
+        "hexaCode": "#FF8A9F",
+        "name": "Rosa",
+        "cod": "A21"
+      },
+      {
+        "hexaCode": "#FFC0CB",
+        "name": "Rosa Claro",
+        "cod": "A22"
+      },
+      {
+        "hexaCode": "#FFE4E1",
+        "name": "Rosa Pálido",
+        "cod": "A23"
+      },
+      {
+        "hexaCode": "#FFE4C4",
+        "name": "Pêssego",
+        "cod": "A24"
+      }
+    ]
+  },
+  {
+    "name": "Paleta C",
+    "colors": [
+      {
+        "hexaCode": "#000000",
+        "name": "Preto",
+        "cod": "A01"
+      },
+      {
+        "hexaCode": "#B8B8B8",
+        "name": "Cinza Claro",
+        "cod": "A02"
+      },
+      {
+        "hexaCode": "#FFFFFF",
+        "name": "Branco",
+        "cod": "A03"
+      },
+      {
+        "hexaCode": "transparent",
+        "name": "Transparente / Xadrez",
+        "cod": "A04"
+      },
+      {
+        "hexaCode": "#9C5A3C",
+        "name": "Marrom",
+        "cod": "A05"
+      },
+      {
+        "hexaCode": "#002D91",
+        "name": "Azul Escuro",
+        "cod": "A06"
+      },
+      {
+        "hexaCode": "#4B0082",
+        "name": "Roxo",
+        "cod": "A07"
+      },
+      {
+        "hexaCode": "#D3B6F2",
+        "name": "Lilás",
+        "cod": "A08"
+      },
+      {
+        "hexaCode": "#C60C30",
+        "name": "Vermelho",
+        "cod": "A09"
+      },
+      {
+        "hexaCode": "#0070C0",
+        "name": "Azul",
+        "cod": "A10"
+      },
+      {
+        "hexaCode": "#4BC3F0",
+        "name": "Ciano",
+        "cod": "A11"
+      },
+      {
+        "hexaCode": "#A0C4E8",
+        "name": "Azul Bebê",
+        "cod": "A12"
+      },
+      {
+        "hexaCode": "#FF6B6B",
+        "name": "Salmão",
+        "cod": "A13"
+      },
+      {
+        "hexaCode": "#006B3C",
+        "name": "Verde Escuro",
+        "cod": "A14"
+      },
+      {
+        "hexaCode": "#8DB040",
+        "name": "Verde Oliva",
+        "cod": "A15"
+      },
+      {
+        "hexaCode": "#E8E820",
+        "name": "Amarelo Limão",
+        "cod": "A16"
+      },
+      {
+        "hexaCode": "#FF7F00",
+        "name": "Laranja",
+        "cod": "A17"
+      },
+      {
+        "hexaCode": "#FFC000",
+        "name": "Amarelo Ouro",
+        "cod": "A18"
+      },
+      {
+        "hexaCode": "#FFFF00",
+        "name": "Amarelo",
+        "cod": "A19"
+      },
+      {
+        "hexaCode": "#FFFFA0",
+        "name": "Amarelo Pastel",
+        "cod": "A20"
+      },
+      {
+        "hexaCode": "#FF8A9F",
+        "name": "Rosa",
+        "cod": "A21"
+      },
+      {
+        "hexaCode": "#FFC0CB",
+        "name": "Rosa Claro",
+        "cod": "A22"
+      },
+      {
+        "hexaCode": "#FFE4E1",
+        "name": "Rosa Pálido",
+        "cod": "A23"
+      },
+      {
+        "hexaCode": "#FFE4C4",
+        "name": "Pêssego",
+        "cod": "A24"
+      }
+    ]
+  },
+  {
+    "name": "Paleta D",
+    "colors": [
+      {
+        "hexaCode": "#000000",
+        "name": "Preto",
+        "cod": "A01"
+      },
+      {
+        "hexaCode": "#B8B8B8",
+        "name": "Cinza Claro",
+        "cod": "A02"
+      },
+      {
+        "hexaCode": "#FFFFFF",
+        "name": "Branco",
+        "cod": "A03"
+      },
+      {
+        "hexaCode": "transparent",
+        "name": "Transparente / Xadrez",
+        "cod": "A04"
+      },
+      {
+        "hexaCode": "#9C5A3C",
+        "name": "Marrom",
+        "cod": "A05"
+      },
+      {
+        "hexaCode": "#002D91",
+        "name": "Azul Escuro",
+        "cod": "A06"
+      },
+      {
+        "hexaCode": "#4B0082",
+        "name": "Roxo",
+        "cod": "A07"
+      },
+      {
+        "hexaCode": "#D3B6F2",
+        "name": "Lilás",
+        "cod": "A08"
+      },
+      {
+        "hexaCode": "#C60C30",
+        "name": "Vermelho",
+        "cod": "A09"
+      },
+      {
+        "hexaCode": "#0070C0",
+        "name": "Azul",
+        "cod": "A10"
+      },
+      {
+        "hexaCode": "#4BC3F0",
+        "name": "Ciano",
+        "cod": "A11"
+      },
+      {
+        "hexaCode": "#A0C4E8",
+        "name": "Azul Bebê",
+        "cod": "A12"
+      },
+      {
+        "hexaCode": "#FF6B6B",
+        "name": "Salmão",
+        "cod": "A13"
+      },
+      {
+        "hexaCode": "#006B3C",
+        "name": "Verde Escuro",
+        "cod": "A14"
+      },
+      {
+        "hexaCode": "#8DB040",
+        "name": "Verde Oliva",
+        "cod": "A15"
+      },
+      {
+        "hexaCode": "#E8E820",
+        "name": "Amarelo Limão",
+        "cod": "A16"
+      },
+      {
+        "hexaCode": "#FF7F00",
+        "name": "Laranja",
+        "cod": "A17"
+      },
+      {
+        "hexaCode": "#FFC000",
+        "name": "Amarelo Ouro",
+        "cod": "A18"
+      },
+      {
+        "hexaCode": "#FFFF00",
+        "name": "Amarelo",
+        "cod": "A19"
+      },
+      {
+        "hexaCode": "#FFFFA0",
+        "name": "Amarelo Pastel",
+        "cod": "A20"
+      },
+      {
+        "hexaCode": "#FF8A9F",
+        "name": "Rosa",
+        "cod": "A21"
+      },
+      {
+        "hexaCode": "#FFC0CB",
+        "name": "Rosa Claro",
+        "cod": "A22"
+      },
+      {
+        "hexaCode": "#FFE4E1",
+        "name": "Rosa Pálido",
+        "cod": "A23"
+      },
+      {
+        "hexaCode": "#FFE4C4",
+        "name": "Pêssego",
+        "cod": "A24"
+      }
+    ]
+  },
+  {
+    "name": "Paleta E",
+    "colors": [
+      {
+        "hexaCode": "#000000",
+        "name": "Preto",
+        "cod": "A01"
+      },
+      {
+        "hexaCode": "#B8B8B8",
+        "name": "Cinza Claro",
+        "cod": "A02"
+      },
+      {
+        "hexaCode": "#FFFFFF",
+        "name": "Branco",
+        "cod": "A03"
+      },
+      {
+        "hexaCode": "transparent",
+        "name": "Transparente / Xadrez",
+        "cod": "A04"
+      },
+      {
+        "hexaCode": "#9C5A3C",
+        "name": "Marrom",
+        "cod": "A05"
+      },
+      {
+        "hexaCode": "#002D91",
+        "name": "Azul Escuro",
+        "cod": "A06"
+      },
+      {
+        "hexaCode": "#4B0082",
+        "name": "Roxo",
+        "cod": "A07"
+      },
+      {
+        "hexaCode": "#D3B6F2",
+        "name": "Lilás",
+        "cod": "A08"
+      },
+      {
+        "hexaCode": "#C60C30",
+        "name": "Vermelho",
+        "cod": "A09"
+      },
+      {
+        "hexaCode": "#0070C0",
+        "name": "Azul",
+        "cod": "A10"
+      },
+      {
+        "hexaCode": "#4BC3F0",
+        "name": "Ciano",
+        "cod": "A11"
+      },
+      {
+        "hexaCode": "#A0C4E8",
+        "name": "Azul Bebê",
+        "cod": "A12"
+      },
+      {
+        "hexaCode": "#FF6B6B",
+        "name": "Salmão",
+        "cod": "A13"
+      },
+      {
+        "hexaCode": "#006B3C",
+        "name": "Verde Escuro",
+        "cod": "A14"
+      },
+      {
+        "hexaCode": "#8DB040",
+        "name": "Verde Oliva",
+        "cod": "A15"
+      },
+      {
+        "hexaCode": "#E8E820",
+        "name": "Amarelo Limão",
+        "cod": "A16"
+      },
+      {
+        "hexaCode": "#FF7F00",
+        "name": "Laranja",
+        "cod": "A17"
+      },
+      {
+        "hexaCode": "#FFC000",
+        "name": "Amarelo Ouro",
+        "cod": "A18"
+      },
+      {
+        "hexaCode": "#FFFF00",
+        "name": "Amarelo",
+        "cod": "A19"
+      },
+      {
+        "hexaCode": "#FFFFA0",
+        "name": "Amarelo Pastel",
+        "cod": "A20"
+      },
+      {
+        "hexaCode": "#FF8A9F",
+        "name": "Rosa",
+        "cod": "A21"
+      },
+      {
+        "hexaCode": "#FFC0CB",
+        "name": "Rosa Claro",
+        "cod": "A22"
+      },
+      {
+        "hexaCode": "#FFE4E1",
+        "name": "Rosa Pálido",
+        "cod": "A23"
+      },
+      {
+        "hexaCode": "#FFE4C4",
+        "name": "Pêssego",
+        "cod": "A24"
+      }
+    ]
+  },
+  {
+    "name": "Paleta F",
+    "colors": [
+      {
+        "hexaCode": "#000000",
+        "name": "Preto",
+        "cod": "A01"
+      },
+      {
+        "hexaCode": "#B8B8B8",
+        "name": "Cinza Claro",
+        "cod": "A02"
+      },
+      {
+        "hexaCode": "#FFFFFF",
+        "name": "Branco",
+        "cod": "A03"
+      },
+      {
+        "hexaCode": "transparent",
+        "name": "Transparente / Xadrez",
+        "cod": "A04"
+      },
+      {
+        "hexaCode": "#9C5A3C",
+        "name": "Marrom",
+        "cod": "A05"
+      },
+      {
+        "hexaCode": "#002D91",
+        "name": "Azul Escuro",
+        "cod": "A06"
+      },
+      {
+        "hexaCode": "#4B0082",
+        "name": "Roxo",
+        "cod": "A07"
+      },
+      {
+        "hexaCode": "#D3B6F2",
+        "name": "Lilás",
+        "cod": "A08"
+      },
+      {
+        "hexaCode": "#C60C30",
+        "name": "Vermelho",
+        "cod": "A09"
+      },
+      {
+        "hexaCode": "#0070C0",
+        "name": "Azul",
+        "cod": "A10"
+      },
+      {
+        "hexaCode": "#4BC3F0",
+        "name": "Ciano",
+        "cod": "A11"
+      },
+      {
+        "hexaCode": "#A0C4E8",
+        "name": "Azul Bebê",
+        "cod": "A12"
+      },
+      {
+        "hexaCode": "#FF6B6B",
+        "name": "Salmão",
+        "cod": "A13"
+      },
+      {
+        "hexaCode": "#006B3C",
+        "name": "Verde Escuro",
+        "cod": "A14"
+      },
+      {
+        "hexaCode": "#8DB040",
+        "name": "Verde Oliva",
+        "cod": "A15"
+      },
+      {
+        "hexaCode": "#E8E820",
+        "name": "Amarelo Limão",
+        "cod": "A16"
+      },
+      {
+        "hexaCode": "#FF7F00",
+        "name": "Laranja",
+        "cod": "A17"
+      },
+      {
+        "hexaCode": "#FFC000",
+        "name": "Amarelo Ouro",
+        "cod": "A18"
+      },
+      {
+        "hexaCode": "#FFFF00",
+        "name": "Amarelo",
+        "cod": "A19"
+      },
+      {
+        "hexaCode": "#FFFFA0",
+        "name": "Amarelo Pastel",
+        "cod": "A20"
+      },
+      {
+        "hexaCode": "#FF8A9F",
+        "name": "Rosa",
+        "cod": "A21"
+      },
+      {
+        "hexaCode": "#FFC0CB",
+        "name": "Rosa Claro",
+        "cod": "A22"
+      },
+      {
+        "hexaCode": "#FFE4E1",
+        "name": "Rosa Pálido",
+        "cod": "A23"
+      },
+      {
+        "hexaCode": "#FFE4C4",
+        "name": "Pêssego",
+        "cod": "A24"
+      }
+    ]
+  },
+  {
+    "name": "Paleta G",
+    "colors": [
+      {
+        "hexaCode": "#000000",
+        "name": "Preto",
+        "cod": "A01"
+      },
+      {
+        "hexaCode": "#B8B8B8",
+        "name": "Cinza Claro",
+        "cod": "A02"
+      },
+      {
+        "hexaCode": "#FFFFFF",
+        "name": "Branco",
+        "cod": "A03"
+      },
+      {
+        "hexaCode": "transparent",
+        "name": "Transparente / Xadrez",
+        "cod": "A04"
+      },
+      {
+        "hexaCode": "#9C5A3C",
+        "name": "Marrom",
+        "cod": "A05"
+      },
+      {
+        "hexaCode": "#002D91",
+        "name": "Azul Escuro",
+        "cod": "A06"
+      },
+      {
+        "hexaCode": "#4B0082",
+        "name": "Roxo",
+        "cod": "A07"
+      },
+      {
+        "hexaCode": "#D3B6F2",
+        "name": "Lilás",
+        "cod": "A08"
+      },
+      {
+        "hexaCode": "#C60C30",
+        "name": "Vermelho",
+        "cod": "A09"
+      },
+      {
+        "hexaCode": "#0070C0",
+        "name": "Azul",
+        "cod": "A10"
+      },
+      {
+        "hexaCode": "#4BC3F0",
+        "name": "Ciano",
+        "cod": "A11"
+      },
+      {
+        "hexaCode": "#A0C4E8",
+        "name": "Azul Bebê",
+        "cod": "A12"
+      },
+      {
+        "hexaCode": "#FF6B6B",
+        "name": "Salmão",
+        "cod": "A13"
+      },
+      {
+        "hexaCode": "#006B3C",
+        "name": "Verde Escuro",
+        "cod": "A14"
+      },
+      {
+        "hexaCode": "#8DB040",
+        "name": "Verde Oliva",
+        "cod": "A15"
+      },
+      {
+        "hexaCode": "#E8E820",
+        "name": "Amarelo Limão",
+        "cod": "A16"
+      },
+      {
+        "hexaCode": "#FF7F00",
+        "name": "Laranja",
+        "cod": "A17"
+      },
+      {
+        "hexaCode": "#FFC000",
+        "name": "Amarelo Ouro",
+        "cod": "A18"
+      },
+      {
+        "hexaCode": "#FFFF00",
+        "name": "Amarelo",
+        "cod": "A19"
+      },
+      {
+        "hexaCode": "#FFFFA0",
+        "name": "Amarelo Pastel",
+        "cod": "A20"
+      },
+      {
+        "hexaCode": "#FF8A9F",
+        "name": "Rosa",
+        "cod": "A21"
+      },
+      {
+        "hexaCode": "#FFC0CB",
+        "name": "Rosa Claro",
+        "cod": "A22"
+      },
+      {
+        "hexaCode": "#FFE4E1",
+        "name": "Rosa Pálido",
+        "cod": "A23"
+      },
+      {
+        "hexaCode": "#FFE4C4",
+        "name": "Pêssego",
+        "cod": "A24"
+      }
+    ]
+  },
+  {
+    "name": "Paleta H",
+    "colors": [
+      {
+        "hexaCode": "#000000",
+        "name": "Preto",
+        "cod": "A01"
+      },
+      {
+        "hexaCode": "#B8B8B8",
+        "name": "Cinza Claro",
+        "cod": "A02"
+      },
+      {
+        "hexaCode": "#FFFFFF",
+        "name": "Branco",
+        "cod": "A03"
+      },
+      {
+        "hexaCode": "transparent",
+        "name": "Transparente / Xadrez",
+        "cod": "A04"
+      },
+      {
+        "hexaCode": "#9C5A3C",
+        "name": "Marrom",
+        "cod": "A05"
+      },
+      {
+        "hexaCode": "#002D91",
+        "name": "Azul Escuro",
+        "cod": "A06"
+      },
+      {
+        "hexaCode": "#4B0082",
+        "name": "Roxo",
+        "cod": "A07"
+      },
+      {
+        "hexaCode": "#D3B6F2",
+        "name": "Lilás",
+        "cod": "A08"
+      },
+      {
+        "hexaCode": "#C60C30",
+        "name": "Vermelho",
+        "cod": "A09"
+      },
+      {
+        "hexaCode": "#0070C0",
+        "name": "Azul",
+        "cod": "A10"
+      },
+      {
+        "hexaCode": "#4BC3F0",
+        "name": "Ciano",
+        "cod": "A11"
+      },
+      {
+        "hexaCode": "#A0C4E8",
+        "name": "Azul Bebê",
+        "cod": "A12"
+      },
+      {
+        "hexaCode": "#FF6B6B",
+        "name": "Salmão",
+        "cod": "A13"
+      },
+      {
+        "hexaCode": "#006B3C",
+        "name": "Verde Escuro",
+        "cod": "A14"
+      },
+      {
+        "hexaCode": "#8DB040",
+        "name": "Verde Oliva",
+        "cod": "A15"
+      },
+      {
+        "hexaCode": "#E8E820",
+        "name": "Amarelo Limão",
+        "cod": "A16"
+      },
+      {
+        "hexaCode": "#FF7F00",
+        "name": "Laranja",
+        "cod": "A17"
+      },
+      {
+        "hexaCode": "#FFC000",
+        "name": "Amarelo Ouro",
+        "cod": "A18"
+      },
+      {
+        "hexaCode": "#FFFF00",
+        "name": "Amarelo",
+        "cod": "A19"
+      },
+      {
+        "hexaCode": "#FFFFA0",
+        "name": "Amarelo Pastel",
+        "cod": "A20"
+      },
+      {
+        "hexaCode": "#FF8A9F",
+        "name": "Rosa",
+        "cod": "A21"
+      },
+      {
+        "hexaCode": "#FFC0CB",
+        "name": "Rosa Claro",
+        "cod": "A22"
+      },
+      {
+        "hexaCode": "#FFE4E1",
+        "name": "Rosa Pálido",
+        "cod": "A23"
+      },
+      {
+        "hexaCode": "#FFE4C4",
+        "name": "Pêssego",
+        "cod": "A24"
+      }
+    ]
+  },
+  {
+    "name": "Paleta I",
+    "colors": [
+      {
+        "hexaCode": "#000000",
+        "name": "Preto",
+        "cod": "A01"
+      },
+      {
+        "hexaCode": "#B8B8B8",
+        "name": "Cinza Claro",
+        "cod": "A02"
+      },
+      {
+        "hexaCode": "#FFFFFF",
+        "name": "Branco",
+        "cod": "A03"
+      },
+      {
+        "hexaCode": "transparent",
+        "name": "Transparente / Xadrez",
+        "cod": "A04"
+      },
+      {
+        "hexaCode": "#9C5A3C",
+        "name": "Marrom",
+        "cod": "A05"
+      },
+      {
+        "hexaCode": "#002D91",
+        "name": "Azul Escuro",
+        "cod": "A06"
+      },
+      {
+        "hexaCode": "#4B0082",
+        "name": "Roxo",
+        "cod": "A07"
+      },
+      {
+        "hexaCode": "#D3B6F2",
+        "name": "Lilás",
+        "cod": "A08"
+      },
+      {
+        "hexaCode": "#C60C30",
+        "name": "Vermelho",
+        "cod": "A09"
+      },
+      {
+        "hexaCode": "#0070C0",
+        "name": "Azul",
+        "cod": "A10"
+      },
+      {
+        "hexaCode": "#4BC3F0",
+        "name": "Ciano",
+        "cod": "A11"
+      },
+      {
+        "hexaCode": "#A0C4E8",
+        "name": "Azul Bebê",
+        "cod": "A12"
+      },
+      {
+        "hexaCode": "#FF6B6B",
+        "name": "Salmão",
+        "cod": "A13"
+      },
+      {
+        "hexaCode": "#006B3C",
+        "name": "Verde Escuro",
+        "cod": "A14"
+      },
+      {
+        "hexaCode": "#8DB040",
+        "name": "Verde Oliva",
+        "cod": "A15"
+      },
+      {
+        "hexaCode": "#E8E820",
+        "name": "Amarelo Limão",
+        "cod": "A16"
+      },
+      {
+        "hexaCode": "#FF7F00",
+        "name": "Laranja",
+        "cod": "A17"
+      },
+      {
+        "hexaCode": "#FFC000",
+        "name": "Amarelo Ouro",
+        "cod": "A18"
+      },
+      {
+        "hexaCode": "#FFFF00",
+        "name": "Amarelo",
+        "cod": "A19"
+      },
+      {
+        "hexaCode": "#FFFFA0",
+        "name": "Amarelo Pastel",
+        "cod": "A20"
+      },
+      {
+        "hexaCode": "#FF8A9F",
+        "name": "Rosa",
+        "cod": "A21"
+      },
+      {
+        "hexaCode": "#FFC0CB",
+        "name": "Rosa Claro",
+        "cod": "A22"
+      },
+      {
+        "hexaCode": "#FFE4E1",
+        "name": "Rosa Pálido",
+        "cod": "A23"
+      },
+      {
+        "hexaCode": "#FFE4C4",
+        "name": "Pêssego",
+        "cod": "A24"
+      }
+    ]
+  }
+]
