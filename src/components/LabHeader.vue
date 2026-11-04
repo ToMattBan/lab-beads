@@ -1,9 +1,9 @@
 <template>
   <header>
-    <div class="logo">
+    <RouterLink class="logo" to="/">
       <img src="../assets/lab-icon.jpg" />
       <span>BEADS</span>
-    </div>
+    </RouterLink>
 
     <div class="cart">
       <img src="../assets/icons/cart-icon.svg" />
@@ -26,6 +26,7 @@ header {
     font-size: 3rem;
     font-family: "Jersey";
     color: #4d5078;
+    text-decoration: none;
     text-shadow: 1px 1px 0px #FFB210;
 
     img {
