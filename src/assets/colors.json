@@ -3,100 +3,100 @@
     "name": "Paleta A",
     "colors": [
       {
-        "hexaCode": "#000000",
-        "cod": "A01"
+        "cod": "A01",
+        "hexaCode": "#000000"
       },
       {
-        "hexaCode": "#B8B8B8",
-        "cod": "A02"
+        "cod": "A02",
+        "hexaCode": "#B2B2B2"
       },
       {
-        "hexaCode": "#FFFFFF",
-        "cod": "A03"
+        "cod": "A03",
+        "hexaCode": "#FFFFFF"
       },
       {
-        "hexaCode": "transparent",
-        "cod": "A04"
+        "cod": "A04",
+        "hexaCode": "#FFFFFF"
       },
       {
-        "hexaCode": "#9C5A3C",
-        "cod": "A05"
+        "cod": "A05",
+        "hexaCode": "#885129"
       },
       {
-        "hexaCode": "#002D91",
-        "cod": "A06"
+        "cod": "A06",
+        "hexaCode": "#0F37A9"
       },
       {
-        "hexaCode": "#4B0082",
-        "cod": "A07"
+        "cod": "A07",
+        "hexaCode": "#580F93"
       },
       {
-        "hexaCode": "#D3B6F2",
-        "cod": "A08"
+        "cod": "A08",
+        "hexaCode": "#C8BAF6"
       },
       {
-        "hexaCode": "#C60C30",
-        "cod": "A09"
+        "cod": "A09",
+        "hexaCode": "#D70427"
       },
       {
-        "hexaCode": "#0070C0",
-        "cod": "A10"
+        "cod": "A10",
+        "hexaCode": "#117CD7"
       },
       {
-        "hexaCode": "#4BC3F0",
-        "cod": "A11"
+        "cod": "A11",
+        "hexaCode": "#57D1FD"
       },
       {
-        "hexaCode": "#A0C4E8",
-        "cod": "A12"
+        "cod": "A12",
+        "hexaCode": "#A6C3F5"
       },
       {
-        "hexaCode": "#FF6B6B",
-        "cod": "A13"
+        "cod": "A13",
+        "hexaCode": "#FF5A52"
       },
       {
-        "hexaCode": "#006B3C",
-        "cod": "A14"
+        "cod": "A14",
+        "hexaCode": "#006F2C"
       },
       {
-        "hexaCode": "#8DB040",
-        "cod": "A15"
+        "cod": "A15",
+        "hexaCode": "#9BB03D"
       },
       {
-        "hexaCode": "#E8E820",
-        "cod": "A16"
+        "cod": "A16",
+        "hexaCode": "#E3ED39"
       },
       {
-        "hexaCode": "#FF7F00",
-        "cod": "A17"
+        "cod": "A17",
+        "hexaCode": "#FD6D29"
       },
       {
-        "hexaCode": "#FFC000",
-        "cod": "A18"
+        "cod": "A18",
+        "hexaCode": "#FEC716"
       },
       {
-        "hexaCode": "#FFFF00",
-        "cod": "A19"
+        "cod": "A19",
+        "hexaCode": "#FEE91B"
       },
       {
-        "hexaCode": "#FFFFA0",
-        "cod": "A20"
+        "cod": "A20",
+        "hexaCode": "#FEF684"
       },
       {
-        "hexaCode": "#FF8A9F",
-        "cod": "A21"
+        "cod": "A21",
+        "hexaCode": "#FF7A98"
       },
       {
-        "hexaCode": "#FFC0CB",
-        "cod": "A22"
+        "cod": "A22",
+        "hexaCode": "#FDB7DC"
       },
       {
-        "hexaCode": "#FFE4E1",
-        "cod": "A23"
+        "cod": "A23",
+        "hexaCode": "#FFD0DD"
       },
       {
-        "hexaCode": "#FFE4C4",
-        "cod": "A24"
+        "cod": "A24",
+        "hexaCode": "#FDDDC9"
       }
     ]
   },
@@ -104,100 +104,100 @@
     "name": "Paleta B",
     "colors": [
       {
-        "hexaCode": "#000000",
-        "cod": "A01"
+        "cod": "B01",
+        "hexaCode": "#1B1B1B"
       },
       {
-        "hexaCode": "#B8B8B8",
-        "cod": "A02"
+        "cod": "B02",
+        "hexaCode": "#352623"
       },
       {
-        "hexaCode": "#FFFFFF",
-        "cod": "A03"
+        "cod": "B03",
+        "hexaCode": "#353535"
       },
       {
-        "hexaCode": "transparent",
-        "cod": "A04"
+        "cod": "B04",
+        "hexaCode": "#5D5D5D"
       },
       {
-        "hexaCode": "#9C5A3C",
-        "cod": "A05"
+        "cod": "B05",
+        "hexaCode": "#AB3906"
       },
       {
-        "hexaCode": "#002D91",
-        "cod": "A06"
+        "cod": "B06",
+        "hexaCode": "#2B0A6F"
       },
       {
-        "hexaCode": "#4B0082",
-        "cod": "A07"
+        "cod": "B07",
+        "hexaCode": "#9478CA"
       },
       {
-        "hexaCode": "#D3B6F2",
-        "cod": "A08"
+        "cod": "B08",
+        "hexaCode": "#E2D3FE"
       },
       {
-        "hexaCode": "#C60C30",
-        "cod": "A09"
+        "cod": "B09",
+        "hexaCode": "#AD0122"
       },
       {
-        "hexaCode": "#0070C0",
-        "cod": "A10"
+        "cod": "B10",
+        "hexaCode": "#6086E9"
       },
       {
-        "hexaCode": "#4BC3F0",
-        "cod": "A11"
+        "cod": "B11",
+        "hexaCode": "#4EA5EB"
       },
       {
-        "hexaCode": "#A0C4E8",
-        "cod": "A12"
+        "cod": "B12",
+        "hexaCode": "#D4FCFF"
       },
       {
-        "hexaCode": "#FF6B6B",
-        "cod": "A13"
+        "cod": "B13",
+        "hexaCode": "#FB293B"
       },
       {
-        "hexaCode": "#006B3C",
-        "cod": "A14"
+        "cod": "B14",
+        "hexaCode": "#3AD8AE"
       },
       {
-        "hexaCode": "#8DB040",
-        "cod": "A15"
+        "cod": "B15",
+        "hexaCode": "#7AC7B3"
       },
       {
-        "hexaCode": "#E8E820",
-        "cod": "A16"
+        "cod": "B16",
+        "hexaCode": "#BBEC9D"
       },
       {
-        "hexaCode": "#FF7F00",
-        "cod": "A17"
+        "cod": "B17",
+        "hexaCode": "#BC8128"
       },
       {
-        "hexaCode": "#FFC000",
-        "cod": "A18"
+        "cod": "B18",
+        "hexaCode": "#F49D2F"
       },
       {
-        "hexaCode": "#FFFF00",
-        "cod": "A19"
+        "cod": "B19",
+        "hexaCode": "#FDB064"
       },
       {
-        "hexaCode": "#FFFFA0",
-        "cod": "A20"
+        "cod": "B20",
+        "hexaCode": "#FDD055"
       },
       {
-        "hexaCode": "#FF8A9F",
-        "cod": "A21"
+        "cod": "B21",
+        "hexaCode": "#FF346A"
       },
       {
-        "hexaCode": "#FFC0CB",
-        "cod": "A22"
+        "cod": "B22",
+        "hexaCode": "#FD8AAE"
       },
       {
-        "hexaCode": "#FFE4E1",
-        "cod": "A23"
+        "cod": "B23",
+        "hexaCode": "#FFBCB0"
       },
       {
-        "hexaCode": "#FFE4C4",
-        "cod": "A24"
+        "cod": "B24",
+        "hexaCode": "#FFD3C3"
       }
     ]
   },
@@ -205,100 +205,100 @@
     "name": "Paleta C",
     "colors": [
       {
-        "hexaCode": "#000000",
-        "cod": "A01"
+        "cod": "C01",
+        "hexaCode": "#052311"
       },
       {
-        "hexaCode": "#B8B8B8",
-        "cod": "A02"
+        "cod": "C02",
+        "hexaCode": "#00B4B5"
       },
       {
-        "hexaCode": "#FFFFFF",
-        "cod": "A03"
+        "cod": "C03",
+        "hexaCode": "#7CE79E"
       },
       {
-        "hexaCode": "transparent",
-        "cod": "A04"
+        "cod": "C04",
+        "hexaCode": "#39F962"
       },
       {
-        "hexaCode": "#9C5A3C",
-        "cod": "A05"
+        "cod": "C05",
+        "hexaCode": "#0B3A11"
       },
       {
-        "hexaCode": "#002D91",
-        "cod": "A06"
+        "cod": "C06",
+        "hexaCode": "#21C3C5"
       },
       {
-        "hexaCode": "#4B0082",
-        "cod": "A07"
+        "cod": "C07",
+        "hexaCode": "#28C85A"
       },
       {
-        "hexaCode": "#D3B6F2",
-        "cod": "A08"
+        "cod": "C08",
+        "hexaCode": "#76F45D"
       },
       {
-        "hexaCode": "#C60C30",
-        "cod": "A09"
+        "cod": "C09",
+        "hexaCode": "#006F42"
       },
       {
-        "hexaCode": "#0070C0",
-        "cod": "A10"
+        "cod": "C10",
+        "hexaCode": "#2CB5E0"
       },
       {
-        "hexaCode": "#4BC3F0",
-        "cod": "A11"
+        "cod": "C11",
+        "hexaCode": "#86DEFE"
       },
       {
-        "hexaCode": "#A0C4E8",
-        "cod": "A12"
+        "cod": "C12",
+        "hexaCode": "#AAE849"
       },
       {
-        "hexaCode": "#FF6B6B",
-        "cod": "A13"
+        "cod": "C13",
+        "hexaCode": "#00908B"
       },
       {
-        "hexaCode": "#006B3C",
-        "cod": "A14"
+        "cod": "C14",
+        "hexaCode": "#34D5EA"
       },
       {
-        "hexaCode": "#8DB040",
-        "cod": "A15"
+        "cod": "C15",
+        "hexaCode": "#AEF9F5"
       },
       {
-        "hexaCode": "#E8E820",
-        "cod": "A16"
+        "cod": "C16",
+        "hexaCode": "#E5ED4E"
       },
       {
-        "hexaCode": "#FF7F00",
-        "cod": "A17"
+        "cod": "C17",
+        "hexaCode": "#0680BC"
       },
       {
-        "hexaCode": "#FFC000",
-        "cod": "A18"
+        "cod": "C18",
+        "hexaCode": "#B5BEF4"
       },
       {
-        "hexaCode": "#FFFF00",
-        "cod": "A19"
+        "cod": "C19",
+        "hexaCode": "#DEE4FE"
       },
       {
-        "hexaCode": "#FFFFA0",
-        "cod": "A20"
+        "cod": "C20",
+        "hexaCode": "#DBFE89"
       },
       {
-        "hexaCode": "#FF8A9F",
-        "cod": "A21"
+        "cod": "C21",
+        "hexaCode": "#0A48BC"
       },
       {
-        "hexaCode": "#FFC0CB",
-        "cod": "A22"
+        "cod": "C22",
+        "hexaCode": "#8899E7"
       },
       {
-        "hexaCode": "#FFE4E1",
-        "cod": "A23"
+        "cod": "C23",
+        "hexaCode": "#CDE7FE"
       },
       {
-        "hexaCode": "#FFE4C4",
-        "cod": "A24"
+        "cod": "C24",
+        "hexaCode": "#E6FEE7"
       }
     ]
   },
@@ -306,100 +306,100 @@
     "name": "Paleta D",
     "colors": [
       {
-        "hexaCode": "#000000",
-        "cod": "A01"
+        "cod": "D01",
+        "hexaCode": "#1B0746"
       },
       {
-        "hexaCode": "#B8B8B8",
-        "cod": "A02"
+        "cod": "D02",
+        "hexaCode": "#C524A1"
       },
       {
-        "hexaCode": "#FFFFFF",
-        "cod": "A03"
+        "cod": "D03",
+        "hexaCode": "#720799"
       },
       {
-        "hexaCode": "transparent",
-        "cod": "A04"
+        "cod": "D04",
+        "hexaCode": "#FFA8AB"
       },
       {
-        "hexaCode": "#9C5A3C",
-        "cod": "A05"
+        "cod": "D05",
+        "hexaCode": "#081983"
       },
       {
-        "hexaCode": "#002D91",
-        "cod": "A06"
+        "cod": "D06",
+        "hexaCode": "#D3298A"
       },
       {
-        "hexaCode": "#4B0082",
-        "cod": "A07"
+        "cod": "D07",
+        "hexaCode": "#631896"
       },
       {
-        "hexaCode": "#D3B6F2",
-        "cod": "A08"
+        "cod": "D08",
+        "hexaCode": "#FFB599"
       },
       {
-        "hexaCode": "#C60C30",
-        "cod": "A09"
+        "cod": "D09",
+        "hexaCode": "#5F0A09"
       },
       {
-        "hexaCode": "#0070C0",
-        "cod": "A10"
+        "cod": "D10",
+        "hexaCode": "#F351A0"
       },
       {
-        "hexaCode": "#4BC3F0",
-        "cod": "A11"
+        "cod": "D11",
+        "hexaCode": "#CF45B7"
       },
       {
-        "hexaCode": "#A0C4E8",
-        "cod": "A12"
+        "cod": "D12",
+        "hexaCode": "#FDCDBA"
       },
       {
-        "hexaCode": "#FF6B6B",
-        "cod": "A13"
+        "cod": "D13",
+        "hexaCode": "#9D2C0F"
       },
       {
-        "hexaCode": "#006B3C",
-        "cod": "A14"
+        "cod": "D14",
+        "hexaCode": "#FF6993"
       },
       {
-        "hexaCode": "#8DB040",
-        "cod": "A15"
+        "cod": "D15",
+        "hexaCode": "#9C33B6"
       },
       {
-        "hexaCode": "#E8E820",
-        "cod": "A16"
+        "cod": "D16",
+        "hexaCode": "#FBD7D9"
       },
       {
-        "hexaCode": "#FF7F00",
-        "cod": "A17"
+        "cod": "D17",
+        "hexaCode": "#C02069"
       },
       {
-        "hexaCode": "#FFC000",
-        "cod": "A18"
+        "cod": "D18",
+        "hexaCode": "#FF6DBC"
       },
       {
-        "hexaCode": "#FFFF00",
-        "cod": "A19"
+        "cod": "D19",
+        "hexaCode": "#9764E5"
       },
       {
-        "hexaCode": "#FFFFA0",
-        "cod": "A20"
+        "cod": "D20",
+        "hexaCode": "#FDE2E9"
       },
       {
-        "hexaCode": "#FF8A9F",
-        "cod": "A21"
+        "cod": "D21",
+        "hexaCode": "#B7046F"
       },
       {
-        "hexaCode": "#FFC0CB",
-        "cod": "A22"
+        "cod": "D22",
+        "hexaCode": "#FA71D7"
       },
       {
-        "hexaCode": "#FFE4E1",
-        "cod": "A23"
+        "cod": "D23",
+        "hexaCode": "#DEA1FD"
       },
       {
-        "hexaCode": "#FFE4C4",
-        "cod": "A24"
+        "cod": "D24",
+        "hexaCode": "#E3C9F0"
       }
     ]
   },
@@ -407,100 +407,100 @@
     "name": "Paleta E",
     "colors": [
       {
-        "hexaCode": "#000000",
-        "cod": "A01"
+        "cod": "E01",
+        "hexaCode": "#2C0F0A"
       },
       {
-        "hexaCode": "#B8B8B8",
-        "cod": "A02"
+        "cod": "E02",
+        "hexaCode": "#DD3925"
       },
       {
-        "hexaCode": "#FFFFFF",
-        "cod": "A03"
+        "cod": "E03",
+        "hexaCode": "#FF6179"
       },
       {
-        "hexaCode": "transparent",
-        "cod": "A04"
+        "cod": "E04",
+        "hexaCode": "#FF967C"
       },
       {
-        "hexaCode": "#9C5A3C",
-        "cod": "A05"
+        "cod": "E05",
+        "hexaCode": "#561D01"
       },
       {
-        "hexaCode": "#002D91",
-        "cod": "A06"
+        "cod": "E06",
+        "hexaCode": "#FB3D44"
       },
       {
-        "hexaCode": "#4B0082",
-        "cod": "A07"
+        "cod": "E07",
+        "hexaCode": "#FF6C41"
       },
       {
-        "hexaCode": "#D3B6F2",
-        "cod": "A08"
+        "cod": "E08",
+        "hexaCode": "#FE9C55"
       },
       {
-        "hexaCode": "#C60C30",
-        "cod": "A09"
+        "cod": "E09",
+        "hexaCode": "#C66845"
       },
       {
-        "hexaCode": "#0070C0",
-        "cod": "A10"
+        "cod": "E10",
+        "hexaCode": "#F4B570"
       },
       {
-        "hexaCode": "#4BC3F0",
-        "cod": "A11"
+        "cod": "E11",
+        "hexaCode": "#F38E37"
       },
       {
-        "hexaCode": "#A0C4E8",
-        "cod": "A12"
+        "cod": "E12",
+        "hexaCode": "#FE9E63"
       },
       {
-        "hexaCode": "#FF6B6B",
-        "cod": "A13"
+        "cod": "E13",
+        "hexaCode": "#E2A071"
       },
       {
-        "hexaCode": "#006B3C",
-        "cod": "A14"
+        "cod": "E14",
+        "hexaCode": "#EFD19C"
       },
       {
-        "hexaCode": "#8DB040",
-        "cod": "A15"
+        "cod": "E15",
+        "hexaCode": "#FEC054"
       },
       {
-        "hexaCode": "#E8E820",
-        "cod": "A16"
+        "cod": "E16",
+        "hexaCode": "#FFCFB2"
       },
       {
-        "hexaCode": "#FF7F00",
-        "cod": "A17"
+        "cod": "E17",
+        "hexaCode": "#FDC082"
       },
       {
-        "hexaCode": "#FFC000",
-        "cod": "A18"
+        "cod": "E18",
+        "hexaCode": "#FAFBD4"
       },
       {
-        "hexaCode": "#FFFF00",
-        "cod": "A19"
+        "cod": "E19",
+        "hexaCode": "#ECD3B6"
       },
       {
-        "hexaCode": "#FFFFA0",
-        "cod": "A20"
+        "cod": "E20",
+        "hexaCode": "#FDCC82"
       },
       {
-        "hexaCode": "#FF8A9F",
-        "cod": "A21"
+        "cod": "E21",
+        "hexaCode": "#FFC6A6"
       },
       {
-        "hexaCode": "#FFC0CB",
-        "cod": "A22"
+        "cod": "E22",
+        "hexaCode": "#FCF8E0"
       },
       {
-        "hexaCode": "#FFE4E1",
-        "cod": "A23"
+        "cod": "E23",
+        "hexaCode": "#FFF4EB"
       },
       {
-        "hexaCode": "#FFE4C4",
-        "cod": "A24"
+        "cod": "E24",
+        "hexaCode": "#FEEAC8"
       }
     ]
   },
@@ -508,100 +508,100 @@
     "name": "Paleta F",
     "colors": [
       {
-        "hexaCode": "#000000",
-        "cod": "A01"
+        "cod": "F01",
+        "hexaCode": "#442B2E"
       },
       {
-        "hexaCode": "#B8B8B8",
-        "cod": "A02"
+        "cod": "F02",
+        "hexaCode": "#734E3D"
       },
       {
-        "hexaCode": "#FFFFFF",
-        "cod": "A03"
+        "cod": "F03",
+        "hexaCode": "#B95944"
       },
       {
-        "hexaCode": "transparent",
-        "cod": "A04"
+        "cod": "F04",
+        "hexaCode": "#DB8869"
       },
       {
-        "hexaCode": "#9C5A3C",
-        "cod": "A05"
+        "cod": "F05",
+        "hexaCode": "#0D2A4C"
       },
       {
-        "hexaCode": "#002D91",
-        "cod": "A06"
+        "cod": "F06",
+        "hexaCode": "#B3A19D"
       },
       {
-        "hexaCode": "#4B0082",
-        "cod": "A07"
+        "cod": "F07",
+        "hexaCode": "#AB92A8"
       },
       {
-        "hexaCode": "#D3B6F2",
-        "cod": "A08"
+        "cod": "F08",
+        "hexaCode": "#B0967E"
       },
       {
-        "hexaCode": "#C60C30",
-        "cod": "A09"
+        "cod": "F09",
+        "hexaCode": "#124893"
       },
       {
-        "hexaCode": "#0070C0",
-        "cod": "A10"
+        "cod": "F10",
+        "hexaCode": "#8B6595"
       },
       {
-        "hexaCode": "#4BC3F0",
-        "cod": "A11"
+        "cod": "F11",
+        "hexaCode": "#9C7E8A"
       },
       {
-        "hexaCode": "#A0C4E8",
-        "cod": "A12"
+        "cod": "F12",
+        "hexaCode": "#D0C3B1"
       },
       {
-        "hexaCode": "#FF6B6B",
-        "cod": "A13"
+        "cod": "F13",
+        "hexaCode": "#46617C"
       },
       {
-        "hexaCode": "#006B3C",
-        "cod": "A14"
+        "cod": "F14",
+        "hexaCode": "#AFA580"
       },
       {
-        "hexaCode": "#8DB040",
-        "cod": "A15"
+        "cod": "F15",
+        "hexaCode": "#C7C2A3"
       },
       {
-        "hexaCode": "#E8E820",
-        "cod": "A16"
+        "cod": "F16",
+        "hexaCode": "#E7D8C4"
       },
       {
-        "hexaCode": "#FF7F00",
-        "cod": "A17"
+        "cod": "F17",
+        "hexaCode": "#3B4926"
       },
       {
-        "hexaCode": "#FFC000",
-        "cod": "A18"
+        "cod": "F18",
+        "hexaCode": "#74907A"
       },
       {
-        "hexaCode": "#FFFF00",
-        "cod": "A19"
+        "cod": "F19",
+        "hexaCode": "#ADBEAE"
       },
       {
-        "hexaCode": "#FFFFA0",
-        "cod": "A20"
+        "cod": "F20",
+        "hexaCode": "#E2E2E2"
       },
       {
-        "hexaCode": "#FF8A9F",
-        "cod": "A21"
+        "cod": "F21",
+        "hexaCode": "#666D73"
       },
       {
-        "hexaCode": "#FFC0CB",
-        "cod": "A22"
+        "cod": "F22",
+        "hexaCode": "#ACACAC"
       },
       {
-        "hexaCode": "#FFE4E1",
-        "cod": "A23"
+        "cod": "F23",
+        "hexaCode": "#BACCD8"
       },
       {
-        "hexaCode": "#FFE4C4",
-        "cod": "A24"
+        "cod": "F24",
+        "hexaCode": "#EADEF6"
       }
     ]
   },
@@ -609,100 +609,100 @@
     "name": "Paleta G",
     "colors": [
       {
-        "hexaCode": "#000000",
-        "cod": "A01"
+        "cod": "G01",
+        "hexaCode": "#088AAD"
       },
       {
-        "hexaCode": "#B8B8B8",
-        "cod": "A02"
+        "cod": "G02",
+        "hexaCode": "#24B7A0"
       },
       {
-        "hexaCode": "#FFFFFF",
-        "cod": "A03"
+        "cod": "G03",
+        "hexaCode": "#CDFBD6"
       },
       {
-        "hexaCode": "transparent",
-        "cod": "A04"
+        "cod": "G04",
+        "hexaCode": "#D0FAA6"
       },
       {
-        "hexaCode": "#9C5A3C",
-        "cod": "A05"
+        "cod": "G05",
+        "hexaCode": "#D3CCFE"
       },
       {
-        "hexaCode": "#002D91",
-        "cod": "A06"
+        "cod": "G06",
+        "hexaCode": "#353993"
       },
       {
-        "hexaCode": "#4B0082",
-        "cod": "A07"
+        "cod": "G07",
+        "hexaCode": "#0769B8"
       },
       {
-        "hexaCode": "#D3B6F2",
-        "cod": "A08"
+        "cod": "G08",
+        "hexaCode": "#B8D9FE"
       },
       {
-        "hexaCode": "#C60C30",
-        "cod": "A09"
+        "cod": "G09",
+        "hexaCode": "#FDC395"
       },
       {
-        "hexaCode": "#0070C0",
-        "cod": "A10"
+        "cod": "G10",
+        "hexaCode": "#FECF87"
       },
       {
-        "hexaCode": "#4BC3F0",
-        "cod": "A11"
+        "cod": "G11",
+        "hexaCode": "#FEF8A4"
       },
       {
-        "hexaCode": "#A0C4E8",
-        "cod": "A12"
+        "cod": "G12",
+        "hexaCode": "#FEFD73"
       },
       {
-        "hexaCode": "#FF6B6B",
-        "cod": "A13"
+        "cod": "G13",
+        "hexaCode": "#A74F22"
       },
       {
-        "hexaCode": "#006B3C",
-        "cod": "A14"
+        "cod": "G14",
+        "hexaCode": "#FD9E26"
       },
       {
-        "hexaCode": "#8DB040",
-        "cod": "A15"
+        "cod": "G15",
+        "hexaCode": "#FDE3CB"
       },
       {
-        "hexaCode": "#E8E820",
-        "cod": "A16"
+        "cod": "G16",
+        "hexaCode": "#FFE3E2"
       },
       {
-        "hexaCode": "#FF7F00",
-        "cod": "A17"
+        "cod": "G17",
+        "hexaCode": "#FD7A72"
       },
       {
-        "hexaCode": "#FFC000",
-        "cod": "A18"
+        "cod": "G18",
+        "hexaCode": "#FFD3F1"
       },
       {
-        "hexaCode": "#FFFF00",
-        "cod": "A19"
+        "cod": "G19",
+        "hexaCode": "#FDC1DB"
       },
       {
-        "hexaCode": "#FFFFA0",
-        "cod": "A20"
+        "cod": "G20",
+        "hexaCode": "#FFC9FC"
       },
       {
-        "hexaCode": "#FF8A9F",
-        "cod": "A21"
+        "cod": "G21",
+        "hexaCode": "#8CA1B2"
       },
       {
-        "hexaCode": "#FFC0CB",
-        "cod": "A22"
+        "cod": "G22",
+        "hexaCode": "#F6EEE1"
       },
       {
-        "hexaCode": "#FFE4E1",
-        "cod": "A23"
+        "cod": "G23",
+        "hexaCode": "#EFEFEF"
       },
       {
-        "hexaCode": "#FFE4C4",
-        "cod": "A24"
+        "cod": "G24",
+        "hexaCode": "#FFCFC7"
       }
     ]
   },
@@ -710,100 +710,100 @@
     "name": "Paleta H",
     "colors": [
       {
-        "hexaCode": "#000000",
-        "cod": "A01"
+        "cod": "H01",
+        "hexaCode": "#E3EFFD"
       },
       {
-        "hexaCode": "#B8B8B8",
-        "cod": "A02"
+        "cod": "H02",
+        "hexaCode": "#E7FEE0"
       },
       {
-        "hexaCode": "#FFFFFF",
-        "cod": "A03"
+        "cod": "H03",
+        "hexaCode": "#CDE668"
       },
       {
-        "hexaCode": "transparent",
-        "cod": "A04"
+        "cod": "H04",
+        "hexaCode": "#FFFCEF"
       },
       {
-        "hexaCode": "#9C5A3C",
-        "cod": "A05"
+        "cod": "H05",
+        "hexaCode": "#A9D0EF"
       },
       {
-        "hexaCode": "#002D91",
-        "cod": "A06"
+        "cod": "H06",
+        "hexaCode": "#C3E5B4"
       },
       {
-        "hexaCode": "#4B0082",
-        "cod": "A07"
+        "cod": "H07",
+        "hexaCode": "#CCDAB8"
       },
       {
-        "hexaCode": "#D3B6F2",
-        "cod": "A08"
+        "cod": "H08",
+        "hexaCode": "#FEFBD3"
       },
       {
-        "hexaCode": "#C60C30",
-        "cod": "A09"
+        "cod": "H09",
+        "hexaCode": "#A7BDE9"
       },
       {
-        "hexaCode": "#0070C0",
-        "cod": "A10"
+        "cod": "H10",
+        "hexaCode": "#9EE5DF"
       },
       {
-        "hexaCode": "#4BC3F0",
-        "cod": "A11"
+        "cod": "H11",
+        "hexaCode": "#BAC781"
       },
       {
-        "hexaCode": "#A0C4E8",
-        "cod": "A12"
+        "cod": "H12",
+        "hexaCode": "#FECEAB"
       },
       {
-        "hexaCode": "#FF6B6B",
-        "cod": "A13"
+        "cod": "H13",
+        "hexaCode": "#EAEAEA"
       },
       {
-        "hexaCode": "#006B3C",
-        "cod": "A14"
+        "cod": "H14",
+        "hexaCode": "#91E5B2"
       },
       {
-        "hexaCode": "#8DB040",
-        "cod": "A15"
+        "cod": "H15",
+        "hexaCode": "#F1D8FE"
       },
       {
-        "hexaCode": "#E8E820",
-        "cod": "A16"
+        "cod": "H16",
+        "hexaCode": "#FDE295"
       },
       {
-        "hexaCode": "#FF7F00",
-        "cod": "A17"
+        "cod": "H17",
+        "hexaCode": "#A4A79E"
       },
       {
-        "hexaCode": "#FFC000",
-        "cod": "A18"
+        "cod": "H18",
+        "hexaCode": "#7DC2FD"
       },
       {
-        "hexaCode": "#FFFF00",
-        "cod": "A19"
+        "cod": "H19",
+        "hexaCode": "#FAB5CA"
       },
       {
-        "hexaCode": "#FFFFA0",
-        "cod": "A20"
+        "cod": "H20",
+        "hexaCode": "#FED57F"
       },
       {
-        "hexaCode": "#FF8A9F",
-        "cod": "A21"
+        "cod": "H21",
+        "hexaCode": "#9FB5CC"
       },
       {
-        "hexaCode": "#FFC0CB",
-        "cod": "A22"
+        "cod": "H22",
+        "hexaCode": "#54AFC2"
       },
       {
-        "hexaCode": "#FFE4E1",
-        "cod": "A23"
+        "cod": "H23",
+        "hexaCode": "#DDBCCF"
       },
       {
-        "hexaCode": "#FFE4C4",
-        "cod": "A24"
+        "cod": "H24",
+        "hexaCode": "#FEAF6C"
       }
     ]
   },
@@ -811,100 +811,100 @@
     "name": "Paleta I",
     "colors": [
       {
-        "hexaCode": "#000000",
-        "cod": "A01"
+        "cod": "I01",
+        "hexaCode": "#2596B1"
       },
       {
-        "hexaCode": "#B8B8B8",
-        "cod": "A02"
+        "cod": "I02",
+        "hexaCode": "#487771"
       },
       {
-        "hexaCode": "#FFFFFF",
-        "cod": "A03"
+        "cod": "I03",
+        "hexaCode": "#926E8A"
       },
       {
-        "hexaCode": "transparent",
-        "cod": "A04"
+        "cod": "I04",
+        "hexaCode": "#E4B8F2"
       },
       {
-        "hexaCode": "#9C5A3C",
-        "cod": "A05"
+        "cod": "I05",
+        "hexaCode": "#096668"
       },
       {
-        "hexaCode": "#002D91",
-        "cod": "A06"
+        "cod": "I06",
+        "hexaCode": "#8C7937"
       },
       {
-        "hexaCode": "#4B0082",
-        "cod": "A07"
+        "cod": "I07",
+        "hexaCode": "#CA8E77"
       },
       {
-        "hexaCode": "#D3B6F2",
-        "cod": "A08"
+        "cod": "I08",
+        "hexaCode": "#C1779F"
       },
       {
-        "hexaCode": "#C60C30",
-        "cod": "A09"
+        "cod": "I09",
+        "hexaCode": "#0B3B42"
       },
       {
-        "hexaCode": "#0070C0",
-        "cod": "A10"
+        "cod": "I10",
+        "hexaCode": "#1A4DE9"
       },
       {
-        "hexaCode": "#4BC3F0",
-        "cod": "A11"
+        "cod": "I11",
+        "hexaCode": "#F58148"
       },
       {
-        "hexaCode": "#A0C4E8",
-        "cod": "A12"
+        "cod": "I12",
+        "hexaCode": "#CF969D"
       },
       {
-        "hexaCode": "#FF6B6B",
-        "cod": "A13"
+        "cod": "I13",
+        "hexaCode": "#002736"
       },
       {
-        "hexaCode": "#006B3C",
-        "cod": "A14"
+        "cod": "I14",
+        "hexaCode": "#5567E6"
       },
       {
-        "hexaCode": "#8DB040",
-        "cod": "A15"
+        "cod": "I15",
+        "hexaCode": "#FFA075"
       },
       {
-        "hexaCode": "#E8E820",
-        "cod": "A16"
+        "cod": "I16",
+        "hexaCode": "#FD7055"
       },
       {
-        "hexaCode": "#FF7F00",
-        "cod": "A17"
+        "cod": "I17",
+        "hexaCode": "#232A19"
       },
       {
-        "hexaCode": "#FFC000",
-        "cod": "A18"
+        "cod": "I18",
+        "hexaCode": "#2529A6"
       },
       {
-        "hexaCode": "#FFFF00",
-        "cod": "A19"
+        "cod": "I19",
+        "hexaCode": "#EF948F"
       },
       {
-        "hexaCode": "#FFFFA0",
-        "cod": "A20"
+        "cod": "I20",
+        "hexaCode": "#D33E46"
       },
       {
-        "hexaCode": "#FF8A9F",
-        "cod": "A21"
+        "cod": "I21",
+        "hexaCode": "#1F0F00"
       },
       {
-        "hexaCode": "#FFC0CB",
-        "cod": "A22"
+        "cod": "I22",
+        "hexaCode": "#2E3F86"
       },
       {
-        "hexaCode": "#FFE4E1",
-        "cod": "A23"
+        "cod": "I23",
+        "hexaCode": "#FF444A"
       },
       {
-        "hexaCode": "#FFE4C4",
-        "cod": "A24"
+        "cod": "I24",
+        "hexaCode": "#C6021E"
       }
     ]
   }

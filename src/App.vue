@@ -21,6 +21,12 @@ import LabHeader from './components/LabHeader.vue';
   src: url("./assets/fonts/Jersey\ 10.ttf");
 }
 
+:root {
+  --color-base: #cbdbfc;
+  --color-blue: #3654a2;
+  --color-golden: #ffb210;
+}
+
 html, body {
   padding: 0;
   margin: 0;
