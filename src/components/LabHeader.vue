@@ -1,12 +1,12 @@
 <template>
   <header>
-    <RouterLink class="logo" to="/">
-      <img src="../assets/lab-icon.jpg" />
+    <RouterLink to="/" class="logo">
+      <img src="../assets/lab-icon.jpg">
       <span>BEADS</span>
     </RouterLink>
 
     <div class="cart">
-      <img src="../assets/icons/cart-icon.svg" />
+      <img src="../assets/icons/cart-icon.svg">
     </div>
   </header>
 </template>

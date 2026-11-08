@@ -1,17 +1,17 @@
 <template>
   <div class="colors-container">
-    <div v-for="color in paleta.colors" class="color-square" :style="`background-color: ${color.hexaCode};`" />
+    <div v-for="color in paleta.colors" class="color-square" :style="`background-color: ${color.hexaCode};`"></div>
   </div>
   <figcaption v-if="caption">{{ caption }}</figcaption>
 </template>
 
 <script setup lang="ts">
-import type { IColorGroup } from '@/interfaces/interfaces';
+  import type { IColorGroup } from '@/interfaces/interfaces';
 
-defineProps<{
-  caption: string;
-  paleta: IColorGroup;
-}>()
+  defineProps<{
+    caption: string;
+    paleta: IColorGroup;
+  }>();
 </script>
 
 <style scoped>

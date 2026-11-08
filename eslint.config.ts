@@ -1,6 +1,7 @@
 // @ts-check
 import tsEslint from 'typescript-eslint';
 import stylistic from '@stylistic/eslint-plugin';
+import vuePlugin from 'eslint-plugin-vue';
 import vueEslintParser from 'vue-eslint-parser';
 
 const defaultIgnores = [
@@ -36,6 +37,7 @@ export default [
   ...tsEslint.configs.recommended,
   stylistic.configs.recommended,
   {
+    plugins: { vue: vuePlugin },
     languageOptions: {
       parser: vueEslintParser,
       parserOptions: {
@@ -174,7 +176,7 @@ export default [
         sortLineLength: true,
       }],
       'vue/block-order': ['error', { order: ['template', 'script', 'style'] }],
-      'vue/block-lang': ['error', { script: { lang: 'ts' }, style: { lang: 'scss' } }],
+      'vue/block-lang': ['error', { script: { lang: 'ts' } }],
       'vue/component-api-style': ['error', ['script-setup']],
       'vue/component-definition-name-casing': ['error', 'PascalCase'],
       'vue/first-attribute-linebreak': ['error', {

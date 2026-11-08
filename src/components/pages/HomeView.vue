@@ -4,8 +4,8 @@
   <ul>
     <li v-for="group in colorsGroup">
       <figure>
-          <RouterLink :to="`/paleta?name=${group.name}`">
-          <LabPaleta :caption="group.name" :paleta="group" />
+        <RouterLink :to="`/paleta?name=${group.name}`">
+          <LabPaleta :paleta="group" :caption="group.name" />
         </RouterLink>
       </figure>
     </li>
@@ -13,13 +13,13 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from "vue";
-import type { IColorGroup } from "@/interfaces/interfaces";
+  import { ref } from 'vue';
+  import type { IColorGroup } from '@/interfaces/interfaces';
 
-import colorsRaw from "../../assets/colors.json"
-import LabPaleta from "../LabPaleta.vue";
+  import colorsRaw from '../../assets/colors.json';
+  import LabPaleta from '../LabPaleta.vue';
 
-const colorsGroup = ref<IColorGroup[]>(colorsRaw)
+  const colorsGroup = ref<IColorGroup[]>(colorsRaw);
 </script>
 
 <style scoped>
@@ -35,7 +35,7 @@ ul {
   max-width: 900px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  
+
   @media screen and (max-width: 600px) {
     grid-template-columns: repeat(1, 1fr);
   }

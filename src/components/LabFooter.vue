@@ -15,14 +15,14 @@
       <ul class="social-links">
         <li>
           <a href="https://www.instagram.com/laboratoriopixel/">
-            <img src="../assets/icons/instagram-icon.svg" class="footer-icons" />
+            <img class="footer-icons" src="../assets/icons/instagram-icon.svg">
             <span>@laboratoriopixel</span>
           </a>
         </li>
 
         <li>
           <a href="https://wa.me/5581996996117">
-            <img src="../assets/icons/whatsapp-icon.svg" class="footer-icons" />
+            <img class="footer-icons" src="../assets/icons/whatsapp-icon.svg">
             <span>+55 81 99699 6117</span>
           </a>
         </li>

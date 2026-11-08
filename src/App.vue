@@ -9,8 +9,8 @@
 </template>
 
 <script setup lang="ts">
-import LabFooter from './components/LabFooter.vue';
-import LabHeader from './components/LabHeader.vue';
+  import LabFooter from './components/LabFooter.vue';
+  import LabHeader from './components/LabHeader.vue';
 
 </script>
 

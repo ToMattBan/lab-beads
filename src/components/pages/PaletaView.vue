@@ -8,8 +8,10 @@
       <figure class="color-picker">
         <figcaption>Cor:</figcaption>
         <ul>
-          <li v-for="color in colorsFromPaleta" @click="selectColor(color)" :class="{ 'selected': color.selected }">{{
-            color.cod }}</li>
+          <li v-for="color in colorsFromPaleta" :class="{ 'selected': color.selected }" @click="selectColor(color)">
+            {{
+              color.cod }}
+          </li>
         </ul>
       </figure>
 
@@ -32,51 +34,53 @@
 </template>
 
 <script setup lang="ts">
-import { reactive, ref } from 'vue';
-import { useRoute } from 'vue-router';
+  import { reactive, ref } from 'vue';
+  import { useRoute } from 'vue-router';
 
-import LabPaleta from '../LabPaleta.vue';
+  import LabPaleta from '../LabPaleta.vue';
 
-import type { IColor } from '@/interfaces/interfaces';
-import colorsRaw from "../../assets/colors.json";
+  import type { IColor } from '@/interfaces/interfaces';
+  import colorsRaw from '../../assets/colors.json';
 
-const route = useRoute();
-const namePaleta = route.query.name;
+  const route = useRoute();
+  const namePaleta = route.query.name;
 
-interface IRowColor extends IColor { selected: boolean }
+  interface IRowColor extends IColor { selected: boolean; }
 
-const paletaSelected = colorsRaw.find(paleta => paleta.name === namePaleta);
-const colorsFromPaleta = reactive<IRowColor[]>(paletaSelected ? paletaSelected.colors.map(c => { return { ...c, selected: false } }) : [])
+  const paletaSelected = colorsRaw.find((paleta) => paleta.name === namePaleta);
+  const colorsFromPaleta = reactive<IRowColor[]>(paletaSelected ?
+    paletaSelected.colors.map((c) => { return { ...c, selected: false }; }) :
+    []);
 
-const colorSelected = ref<IRowColor>();
-const caption = ref<string>(paletaSelected!.name);
+  const colorSelected = ref<IRowColor>();
+  const caption = ref<string>(paletaSelected!.name);
 
-function selectColor(color: IRowColor) {
-  const originalState = color.selected;
-  colorsFromPaleta.forEach(color => color.selected = false)
-  color.selected = !originalState;
+  function selectColor(color: IRowColor) {
+    const originalState = color.selected;
+    colorsFromPaleta.forEach((color) => color.selected = false);
+    color.selected = !originalState;
 
-  if (color.selected === true) {
-    colorSelected.value = color;
-    caption.value = color.cod;
-  } else {
-    colorSelected.value = undefined;
-    caption.value = paletaSelected!.name;
+    if (color.selected === true) {
+      colorSelected.value = color;
+      caption.value = color.cod;
+    } else {
+      colorSelected.value = undefined;
+      caption.value = paletaSelected!.name;
+    }
   }
-}
 
-const desiredQuantity = ref<number>(500);
+  const desiredQuantity = ref<number>(500);
 
-function addBeads() {
-  desiredQuantity.value += 500;
-}
-function removeBeads() {
-  if (desiredQuantity.value <= 500) {
-    desiredQuantity.value = 500
-  } else {
-    desiredQuantity.value -= 500;
+  function addBeads() {
+    desiredQuantity.value += 500;
   }
-}
+  function removeBeads() {
+    if (desiredQuantity.value <= 500) {
+      desiredQuantity.value = 500;
+    } else {
+      desiredQuantity.value -= 500;
+    }
+  }
 </script>
 
 <style scoped>
@@ -186,7 +190,7 @@ article {
     font-size: 1.3em;
     border: none;
 
-    
+
     &:hover {
       background-color: color-mix(in srgb, var(--color-blue) 80%, #000);
       color: var(--color-golden);
