@@ -15,7 +15,7 @@ import LabHeader from './components/LabHeader.vue';
 </script>
 
 <!-- Global style here -->
-<style lang="scss">
+<style>
 @font-face {
   font-family: "Jersey";
   src: url("./assets/fonts/Jersey\ 10.ttf");
