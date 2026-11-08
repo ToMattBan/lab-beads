@@ -46,7 +46,7 @@
 
   import type { IColor } from '@/interfaces/interfaces';
   import colorsRaw from '../../assets/colors.json';
-  import { useCartStore } from '@/stores/cart.ts';
+  import { useCartStore } from '../../stores/cart.ts';
 
   const route = useRoute();
   const namePaleta = route.query.name;
@@ -151,12 +151,14 @@ article {
 
     &.color-picker {
       margin-top: 1em;
+
       ul {
         list-style: none;
         padding: 0;
         margin: 0;
         display: flex;
         flex-wrap: wrap;
+        justify-content: space-evenly;
         row-gap: 4px;
         column-gap: 8px;
 
