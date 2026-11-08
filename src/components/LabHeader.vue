@@ -47,7 +47,12 @@
           </table>
         </div>
 
-        <button class="cart-buyButton" @click="cartStore.buyBeads">Fazer pedido via Whatsapp</button>
+        <a
+          target="_blank"
+          class="cart-buyButton"
+          rel="noopener noreferrer"
+          :href="cartStore.getWhatsappUrl()"
+        >Fazer pedido via Whatsapp</a>
       </div>
     </div>
   </header>
@@ -228,6 +233,11 @@ header {
       }
 
       .cart-buyButton {
+        display: block;
+        box-sizing: border-box;
+        text-align: center;
+        text-decoration: none;
+        cursor: pointer;
         width: 100%;
         padding: 8px 16px;
         border-radius: 8px;
