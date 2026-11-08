@@ -25,6 +25,8 @@ import LabHeader from './components/LabHeader.vue';
   --color-base: #cbdbfc;
   --color-blue: #3654a2;
   --color-golden: #ffb210;
+
+  --mobile-gap: 68px;
 }
 
 html, body {
@@ -42,5 +44,9 @@ body #app {
   main {
     flex: 1;
   }
+}
+
+button {
+  cursor: pointer;
 }
 </style>
