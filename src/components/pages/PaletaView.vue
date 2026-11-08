@@ -1,5 +1,9 @@
 <template>
-  <article v-if="paletaSelected" :style="{ '--selected-color': colorSelected?.hexaCode }">
+  <article
+    v-if="paletaSelected"
+    :class="{'transparent': colorSelected?.cod === 'A04'}"
+    :style="{ '--selected-color': colorSelected?.hexaCode }"
+  >
     <section class="sample">
       <LabPaleta :caption="caption" :paleta="paletaSelected" />
     </section>
@@ -18,13 +22,14 @@
       <figure class="quantity-picker">
         <figcaption>Quantidade:</figcaption>
         <div>
-          <button @click="removeBeads"><img src="../../assets/icons/remove-icon.svg"></button>
+          <button @click="removeQuantity"><img src="../../assets/icons/remove-icon.svg"></button>
           <div class="quantity">{{ desiredQuantity }}</div>
-          <button @click="addBeads"><img src="../../assets/icons/add-icon.svg"></button>
+          <button @click="addQuantity"><img src="../../assets/icons/add-icon.svg"></button>
         </div>
       </figure>
 
-      <button class="add-cart">Adicionar ao carrinho</button>
+      <button class="add-cart" @click="addToCart">Adicionar ao carrinho</button>
+      <span class="error">{{ error }}</span>
     </section>
   </article>
 
@@ -41,9 +46,11 @@
 
   import type { IColor } from '@/interfaces/interfaces';
   import colorsRaw from '../../assets/colors.json';
+  import { useCartStore } from '@/stores/cart.ts';
 
   const route = useRoute();
   const namePaleta = route.query.name;
+  const cartStore = useCartStore();
 
   interface IRowColor extends IColor { selected: boolean; }
 
@@ -52,13 +59,19 @@
     paletaSelected.colors.map((c) => { return { ...c, selected: false }; }) :
     []);
 
+  const error = ref<string | null>(null);
+
   const colorSelected = ref<IRowColor>();
+  const desiredQuantity = ref<number>(500);
   const caption = ref<string>(paletaSelected!.name);
 
   function selectColor(color: IRowColor) {
     const originalState = color.selected;
     colorsFromPaleta.forEach((color) => color.selected = false);
     color.selected = !originalState;
+
+    desiredQuantity.value = 500;
+    error.value = null;
 
     if (color.selected === true) {
       colorSelected.value = color;
@@ -69,17 +82,30 @@
     }
   }
 
-  const desiredQuantity = ref<number>(500);
-
-  function addBeads() {
+  function addQuantity() {
     desiredQuantity.value += 500;
+    error.value = null;
   }
-  function removeBeads() {
+  function removeQuantity() {
     if (desiredQuantity.value <= 500) {
       desiredQuantity.value = 500;
     } else {
       desiredQuantity.value -= 500;
     }
+
+    error.value = null;
+  }
+
+  function addToCart() {
+    if (!colorSelected.value) {
+      error.value = 'Escolha uma cor de beads antes de adicioná-la ao carrinho';
+      return;
+    }
+
+    cartStore.addItem({
+      cod: colorSelected.value.cod,
+      hexaCode: colorSelected.value.hexaCode,
+    }, desiredQuantity.value);
   }
 </script>
 
@@ -194,6 +220,22 @@ article {
     &:hover {
       background-color: color-mix(in srgb, var(--color-blue) 80%, #000);
       color: var(--color-golden);
+    }
+  }
+
+  .error {
+    color: red;
+  }
+}
+
+article.transparent {
+  &:deep(.colors-container) {
+    &::after {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background-image: url("../../assets/transparent.jpg");
     }
   }
 }
