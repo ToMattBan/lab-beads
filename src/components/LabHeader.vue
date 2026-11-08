@@ -19,27 +19,31 @@
 
         <div class="cart-listing">
           <table>
-            <tr class="cart-listing--header">
-              <th></th>
-              <th>Cor</th>
-              <th>Quantidade</th>
-              <th></th>
-            </tr>
+            <thead>
+              <tr class="cart-listing--header">
+                <th></th>
+                <th>Cor</th>
+                <th>Quantidade</th>
+                <th></th>
+              </tr>
+            </thead>
 
-            <tr v-for="color in cartStore.cartData.items" class="cart-listing--item">
-              <td class="cart-listing--hexa" :style="`background-color: ${color.hexaCode}`"></td>
-              <td class="cart-listing--cod">{{ color.cod }}</td>
-              <td class="cart-listing--qtd">
-                <div>
-                  <button @click="removeQuantity(color)"><img src="../assets/icons/remove-icon.svg"></button>
-                  <div class="quantity">{{ color.quantity }}</div>
-                  <button @click="addQuantity(color)"><img src="../assets/icons/add-icon.svg"></button>
-                </div>
-              </td>
-              <td class="cart-listing--remove">
-                <button @click="removeItem(color)"><img src="../assets/icons/trash-icon.svg"></button>
-              </td>
-            </tr>
+            <tbody>
+              <tr v-for="color in cartStore.cartData.items" class="cart-listing--item">
+                <td class="cart-listing--hexa" :style="`background-color: ${color.hexaCode}`"></td>
+                <td class="cart-listing--cod">{{ color.cod }}</td>
+                <td class="cart-listing--qtd">
+                  <div>
+                    <button @click="removeQuantity(color)"><img src="../assets/icons/remove-icon.svg"></button>
+                    <div class="quantity">{{ color.quantity }}</div>
+                    <button @click="addQuantity(color)"><img src="../assets/icons/add-icon.svg"></button>
+                  </div>
+                </td>
+                <td class="cart-listing--remove">
+                  <button @click="removeItem(color)"><img src="../assets/icons/trash-icon.svg"></button>
+                </td>
+              </tr>
+            </tbody>
           </table>
         </div>
 

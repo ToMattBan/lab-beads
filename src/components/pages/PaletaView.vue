@@ -119,6 +119,7 @@ article {
   @media screen and (min-width: 900px) {
     display: flex;
     gap: 32px;
+    align-items: center;
 
     section.sample {
       flex: 1;
