@@ -143,14 +143,14 @@ article {
 
   figure {
     text-align: left;
-    margin: 0;
-    margin-bottom: 2em;
+    margin: 2em 0;
 
     figcaption {
       margin-bottom: 8px;
     }
 
     &.color-picker {
+      margin-top: 1em;
       ul {
         list-style: none;
         padding: 0;
