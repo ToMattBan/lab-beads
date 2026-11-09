@@ -53,14 +53,16 @@ export const useCartStore = () => {
   }
 
   function getWhatsappUrl() {
-    const itemsList = cartData.items.map((item) => `${ item.cod } - ${ item.quantity }`).join('\n');
+    const itemsList = cartData.items.map((item) => `- ${ item.cod } - ${ item.quantity }`).join('\n');
 
-    const message = `Oii, estou vindo do Lab Pixel Beads e gostaria das seguintes beads:\n
-      ${ itemsList }\n
-      \nTotalizando um pedido de R$${ totalData.value.price },00
-    `;
+    const message =
+      '💎 Oii, estou vindo do Lab Pixel Beads e gostaria das seguintes beads:' +
+      '\n' +
+      `\n${ itemsList }` +
+      '\n' +
+      `\n🛍 Totalizando um pedido de R$ *${ totalData.value.price },00*`;
 
-    return `https://wa.me/5581996996117?text=${ encodeURIComponent(message) }`;
+    return `https://api.whatsapp.com/send?phone=5581996996117&text=${ encodeURIComponent(message) }`;
   }
 
   return reactive({
