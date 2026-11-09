@@ -1,5 +1,5 @@
 import type { IColor } from '@/interfaces/interfaces';
-import { reactive, readonly, ref } from 'vue';
+import { computed, reactive, readonly, ref } from 'vue';
 
 export interface ICartItem extends IColor { quantity: number; }
 
@@ -9,6 +9,15 @@ const cartData = reactive<ICartData>({ items: [] });
 const isOpen = ref<boolean>(false);
 
 export const useCartStore = () => {
+  const totalData = computed(() => {
+    const totalBeads = cartData.items.reduce((total, item) => total + item.quantity, 0);
+
+    return {
+      quantity: totalBeads,
+      price: totalBeads / 100,
+    };
+  });
+
   function addItem(color: IColor, quantity: number) {
     const existingColor = cartData.items.find((seekign) => seekign.cod === color.cod);
 
@@ -45,7 +54,11 @@ export const useCartStore = () => {
 
   function getWhatsappUrl() {
     const itemsList = cartData.items.map((item) => `${ item.cod } - ${ item.quantity }`).join('\n');
-    const message = `Oii, estou vindo do Lab Pixel Beads e gostaria das seguintes beads:\n${ itemsList }`;
+
+    const message = `Oii, estou vindo do Lab Pixel Beads e gostaria das seguintes beads:\n
+      ${ itemsList }\n
+      \nTotalizando um pedido de R$${ totalData.value.price },00
+    `;
 
     return `https://wa.me/5581996996117?text=${ encodeURIComponent(message) }`;
   }
@@ -53,6 +66,7 @@ export const useCartStore = () => {
   return reactive({
     cartData: readonly(cartData),
     isOpen: readonly(isOpen),
+    totalData: readonly(totalData),
     addItem,
     removeItem,
     openCart,

@@ -1,16 +1,23 @@
 <template>
-  <article
-    v-if="paletaSelected"
-    :class="{'transparent': colorSelected?.cod === 'A04'}"
-    :style="{ '--selected-color': colorSelected?.hexaCode }"
-  >
+  <article v-if="paletaSelected">
     <section class="sample">
-      <LabPaleta :caption="caption" :paleta="paletaSelected" />
+      <div>{{ paletaSelected.name }}</div>
+
+      <div class="colors-container">
+        <div
+          v-for="color in colorsFromPaleta"
+          :style="`background-color: ${color.hexaCode};`"
+          :class="['color-square', {'transparent': color.cod === 'A04'}]"
+          @click="selectColor(color)"
+        >
+          <span>{{ color.cod }}</span>
+        </div>
+      </div>
     </section>
 
     <section class="pickers">
       <figure class="color-picker">
-        <figcaption>Cor:</figcaption>
+        <figcaption>Escolha sua Cor:</figcaption>
         <ul>
           <li v-for="color in colorsFromPaleta" :class="{ 'selected': color.selected }" @click="selectColor(color)">
             {{
@@ -20,12 +27,16 @@
       </figure>
 
       <figure class="quantity-picker">
-        <figcaption>Quantidade:</figcaption>
         <div>
           <button @click="removeQuantity"><img src="../../assets/icons/remove-icon.svg"></button>
           <div class="quantity">{{ desiredQuantity }}</div>
           <button @click="addQuantity"><img src="../../assets/icons/add-icon.svg"></button>
         </div>
+      </figure>
+
+      <figure class="price">
+        <!-- <figcaption>Preço das Beads Selecionada:</figcaption> -->
+        <div>R$ <span>{{ desiredQuantity / 100 }}</span>,00</div>
       </figure>
 
       <button class="add-cart" @click="addToCart">Adicionar ao carrinho</button>
@@ -41,8 +52,6 @@
 <script setup lang="ts">
   import { reactive, ref } from 'vue';
   import { useRoute } from 'vue-router';
-
-  import LabPaleta from '../LabPaleta.vue';
 
   import type { IColor } from '@/interfaces/interfaces';
   import colorsRaw from '../../assets/colors.json';
@@ -63,22 +72,19 @@
 
   const colorSelected = ref<IRowColor>();
   const desiredQuantity = ref<number>(500);
-  const caption = ref<string>(paletaSelected!.name);
 
   function selectColor(color: IRowColor) {
     const originalState = color.selected;
     colorsFromPaleta.forEach((color) => color.selected = false);
     color.selected = !originalState;
 
-    desiredQuantity.value = 500;
+    // desiredQuantity.value = 500;
     error.value = null;
 
     if (color.selected === true) {
       colorSelected.value = color;
-      caption.value = color.cod;
     } else {
       colorSelected.value = undefined;
-      caption.value = paletaSelected!.name;
     }
   }
 
@@ -119,126 +125,167 @@ article {
   @media screen and (min-width: 900px) {
     display: flex;
     gap: 32px;
-    align-items: center;
 
     section.sample {
       flex: 1;
     }
 
     section.pickers {
-      flex: 3;
+      flex: 1;
     }
   }
 
-  &:deep(.colors-container) {
-    position: relative;
-
-    &::after {
-      content: "";
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      background-color: var(--selected-color);
-    }
-  }
-
-  figure {
-    text-align: left;
-    margin: 2em 0;
-
+  .sample {
     figcaption {
-      margin-bottom: 8px;
+      font-size: 1.3rem;
+      font-family: monospace;
     }
 
-    &.color-picker {
-      margin-top: 1em;
+    .colors-container {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 8px;
+      margin-top: 12px;
 
-      ul {
-        list-style: none;
-        padding: 0;
-        margin: 0;
+      .color-square {
+        width: 80%;
+        aspect-ratio: 1 / 1;
+        border-radius: 50%;
+        margin: auto;
         display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-        row-gap: 4px;
-        column-gap: 8px;
+        justify-content: center;
+        align-items: center;
+        border: solid 1px black;
+        cursor: pointer;
 
-        li {
+        &.transparent {
+          background-image: url("../../assets/transparent.jpg");
+        }
+
+        span {
           font-family: monospace;
-          border: solid 1px black;
-          border-radius: 8px;
-          padding: 4px 8px;
-          cursor: pointer;
-          font-size: 1.1em;
+          aspect-ratio: 1 / 1;
+          border-radius: 50%;
+          background-color: #fafafa;
+          padding: 2px;
 
-          &:hover {
-            background-color: var(--color-base);
-          }
-
-          &.selected {
-            background-color: var(--color-base);
-            font-weight: bold;
-          }
-        }
-      }
-    }
-
-    &.quantity-picker {
-      div {
-        display: flex;
-
-        button {
-          flex: 1;
-          background-color: lightgray;
-          border-radius: 4px;
-          border: solid 1px gray;
-
-          img {
-            width: 30px;
-          }
-        }
-
-        .quantity {
-          flex: 3;
+          display: flex;
           justify-content: center;
           align-items: center;
-          font-family: 'Jersey';
-          letter-spacing: 3px;
-          font-size: 1.6em;
+
+          @media screen and (min-width: 900px) {
+            padding: 8px;
+            border: dashed 1px black;
+          }
         }
       }
     }
   }
 
-  .add-cart {
-    width: 100%;
-    padding: 8px 16px;
-    border-radius: 8px;
-    background-color: color-mix(in srgb, var(--color-blue) 80%, #fff);
-    color: white;
-    font-size: 1.3em;
-    border: none;
+  .pickers {
+    figure {
+      text-align: left;
+      margin: 2em 0;
 
+      figcaption {
+        margin-bottom: 8px;
 
-    &:hover {
-      background-color: color-mix(in srgb, var(--color-blue) 80%, #000);
-      color: var(--color-golden);
+        @media screen and (min-width: 900px) {
+          font-size: 1.3rem;
+        }
+      }
+
+      &.color-picker {
+        margin-top: 1em;
+
+        ul {
+          list-style: none;
+          padding: 0;
+          margin: 0;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-evenly;
+          row-gap: 4px;
+          column-gap: 8px;
+
+          li {
+            font-family: monospace;
+            border: solid 1px black;
+            border-radius: 8px;
+            padding: 4px 8px;
+            cursor: pointer;
+            font-size: 1.1em;
+
+            &:hover {
+              background-color: var(--color-base);
+            }
+
+            &.selected {
+              background-color: var(--color-base);
+              font-weight: bold;
+            }
+          }
+        }
+      }
+
+      &.quantity-picker {
+        div {
+          display: flex;
+
+          button {
+            flex: 1;
+            background-color: lightgray;
+            border-radius: 4px;
+            border: solid 1px gray;
+
+            img {
+              width: 30px;
+            }
+          }
+
+          .quantity {
+            flex: 3;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Jersey';
+            letter-spacing: 3px;
+            font-size: 1.6em;
+          }
+        }
+      }
     }
-  }
 
-  .error {
-    color: red;
-  }
-}
+    .price {
+      text-align: center;
+      margin-top: -18px;
+      font-size: 0.9rem;
+      border-top: solid 1px gray;
+      padding-top: 8px;
 
-article.transparent {
-  &:deep(.colors-container) {
-    &::after {
-      content: "";
-      position: absolute;
+      span {
+        font-size: 1.5rem;
+        font-weight: 300;
+      }
+    }
+
+    .add-cart {
       width: 100%;
-      height: 100%;
-      background-image: url("../../assets/transparent.jpg");
+      padding: 8px 16px;
+      border-radius: 8px;
+      background-color: color-mix(in srgb, var(--color-blue) 80%, #fff);
+      color: white;
+      font-size: 1.3em;
+      border: none;
+
+
+      &:hover {
+        background-color: color-mix(in srgb, var(--color-blue) 80%, #000);
+        color: var(--color-golden);
+      }
+    }
+
+    .error {
+      color: red;
     }
   }
 }

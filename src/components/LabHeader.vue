@@ -47,6 +47,10 @@
           </table>
         </div>
 
+        <div class="cart-total">
+          {{ cartStore.totalData.quantity }} Beads por R$ {{ cartStore.totalData.price }},00
+        </div>
+
         <a
           target="_blank"
           class="cart-buyButton"
@@ -173,7 +177,7 @@ header {
 
       .cart-listing {
         max-height: 100%;
-        overflow-y: scroll;
+        overflow-y: auto;
         overflow-x: hidden;
         margin-bottom: 8px;
 
@@ -232,6 +236,14 @@ header {
         }
       }
 
+      .cart-total {
+        margin-top: auto;
+        margin-bottom: 8px;
+        border-top: solid 1px gray;
+        padding: 4px 0;
+        text-align: center;
+      }
+
       .cart-buyButton {
         display: block;
         box-sizing: border-box;
@@ -245,8 +257,6 @@ header {
         color: white;
         font-size: 1.3em;
         border: none;
-        margin-top: auto;
-
 
         &:hover {
           background-color: color-mix(in srgb, var(--color-blue) 80%, #000);
