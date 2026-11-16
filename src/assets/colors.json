@@ -5,12 +5,12 @@
       {
         "cod": "A01",
         "hexaCode": "#000000",
-        "stock": 5000
+        "stock": 5500
       },
       {
         "cod": "A02",
         "hexaCode": "#B2B2B2",
-        "stock": 1000
+        "stock": 2500
       },
       {
         "cod": "A03",
@@ -20,92 +20,92 @@
       {
         "cod": "A04",
         "hexaCode": "#FFFFFF",
-        "stock": 2800
+        "stock": 6150
       },
       {
         "cod": "A05",
         "hexaCode": "#885129",
-        "stock": 500
+        "stock": 1000
       },
       {
         "cod": "A06",
         "hexaCode": "#0F37A9",
-        "stock": 0
+        "stock": 3500
       },
       {
         "cod": "A07",
         "hexaCode": "#580F93",
-        "stock": 1100
+        "stock": 3550
       },
       {
         "cod": "A08",
         "hexaCode": "#C8BAF6",
-        "stock": 2200
+        "stock": 2600
       },
       {
         "cod": "A09",
         "hexaCode": "#D70427",
-        "stock": 600
+        "stock": 550
       },
       {
         "cod": "A10",
         "hexaCode": "#117CD7",
-        "stock": 1000
+        "stock": 3500
       },
       {
         "cod": "A11",
         "hexaCode": "#57D1FD",
-        "stock": 4600
+        "stock": 4800
       },
       {
         "cod": "A12",
         "hexaCode": "#A6C3F5",
-        "stock": 1700
+        "stock": 2100
       },
       {
         "cod": "A13",
         "hexaCode": "#FF5A52",
-        "stock": 1200
+        "stock": 1600
       },
       {
         "cod": "A14",
         "hexaCode": "#006F2C",
-        "stock": 1100
+        "stock": 3550
       },
       {
         "cod": "A15",
         "hexaCode": "#9BB03D",
-        "stock": 1600
+        "stock": 2050
       },
       {
         "cod": "A16",
         "hexaCode": "#E3ED39",
-        "stock": 1800
+        "stock": 2150
       },
       {
         "cod": "A17",
         "hexaCode": "#FD6D29",
-        "stock": 1700
+        "stock": 4100
       },
       {
         "cod": "A18",
         "hexaCode": "#FEC716",
-        "stock": 1200
+        "stock": 3600
       },
       {
         "cod": "A19",
         "hexaCode": "#FEE91B",
-        "stock": 1200
+        "stock": 1600
       },
       {
         "cod": "A20",
         "hexaCode": "#FEF684",
-        "stock": 1200
+        "stock": 1600
       },
       {
         "cod": "A21",
         "hexaCode": "#FF7A98",
-        "stock": 600
+        "stock": 1050
       },
       {
         "cod": "A22",
@@ -115,12 +115,12 @@
       {
         "cod": "A23",
         "hexaCode": "#FFD0DD",
-        "stock": 3400
+        "stock": 3700
       },
       {
         "cod": "A24",
         "hexaCode": "#FDDDC9",
-        "stock": 2200
+        "stock": 2600
       }
     ]
   },
@@ -130,12 +130,12 @@
       {
         "cod": "B01",
         "hexaCode": "#1B1B1B",
-        "stock": 0
+        "stock": 2000
       },
       {
         "cod": "B02",
         "hexaCode": "#352623",
-        "stock": 4800
+        "stock": 5400
       },
       {
         "cod": "B03",
@@ -145,17 +145,17 @@
       {
         "cod": "B04",
         "hexaCode": "#5D5D5D",
-        "stock": 0
+        "stock": 2000
       },
       {
         "cod": "B05",
         "hexaCode": "#AB3906",
-        "stock": 0
+        "stock": 3500
       },
       {
         "cod": "B06",
         "hexaCode": "#2B0A6F",
-        "stock": 0
+        "stock": 1000
       },
       {
         "cod": "B07",
@@ -165,32 +165,32 @@
       {
         "cod": "B08",
         "hexaCode": "#E2D3FE",
-        "stock": 1200
+        "stock": 2100
       },
       {
         "cod": "B09",
         "hexaCode": "#AD0122",
-        "stock": 600
+        "stock": 550
       },
       {
         "cod": "B10",
         "hexaCode": "#6086E9",
-        "stock": 1200
+        "stock": 1100
       },
       {
         "cod": "B11",
         "hexaCode": "#4EA5EB",
-        "stock": 3000
+        "stock": 3750
       },
       {
         "cod": "B12",
         "hexaCode": "#D4FCFF",
-        "stock": 4800
+        "stock": 4400
       },
       {
         "cod": "B13",
         "hexaCode": "#FB293B",
-        "stock": 1200
+        "stock": 1100
       },
       {
         "cod": "B14",
@@ -200,52 +200,52 @@
       {
         "cod": "B15",
         "hexaCode": "#7AC7B3",
-        "stock": 0
+        "stock": 1000
       },
       {
         "cod": "B16",
         "hexaCode": "#BBEC9D",
-        "stock": 1800
+        "stock": 2650
       },
       {
         "cod": "B17",
         "hexaCode": "#BC8128",
-        "stock": 0
+        "stock": 3000
       },
       {
         "cod": "B18",
         "hexaCode": "#F49D2F",
-        "stock": 0
+        "stock": 2000
       },
       {
         "cod": "B19",
         "hexaCode": "#FDB064",
-        "stock": 1200
+        "stock": 2100
       },
       {
         "cod": "B20",
         "hexaCode": "#FDD055",
-        "stock": 1200
+        "stock": 1100
       },
       {
         "cod": "B21",
         "hexaCode": "#FF346A",
-        "stock": 0
+        "stock": 1000
       },
       {
         "cod": "B22",
         "hexaCode": "#FD8AAE",
-        "stock": 600
+        "stock": 550
       },
       {
         "cod": "B23",
         "hexaCode": "#FFBCB0",
-        "stock": 0
+        "stock": 1000
       },
       {
         "cod": "B24",
         "hexaCode": "#FFD3C3",
-        "stock": 1200
+        "stock": 1100
       }
     ]
   },
@@ -260,22 +260,22 @@
       {
         "cod": "C02",
         "hexaCode": "#00B4B5",
-        "stock": 4800
+        "stock": 4400
       },
       {
         "cod": "C03",
         "hexaCode": "#7CE79E",
-        "stock": 2200
+        "stock": 2100
       },
       {
         "cod": "C04",
         "hexaCode": "#39F962",
-        "stock": 600
+        "stock": 550
       },
       {
         "cod": "C05",
         "hexaCode": "#0B3A11",
-        "stock": 600
+        "stock": 550
       },
       {
         "cod": "C06",
@@ -290,27 +290,27 @@
       {
         "cod": "C08",
         "hexaCode": "#76F45D",
-        "stock": 600
+        "stock": 550
       },
       {
         "cod": "C09",
         "hexaCode": "#006F42",
-        "stock": 2800
+        "stock": 2650
       },
       {
         "cod": "C10",
         "hexaCode": "#2CB5E0",
-        "stock": 3600
+        "stock": 3300
       },
       {
         "cod": "C11",
         "hexaCode": "#86DEFE",
-        "stock": 2400
+        "stock": 2200
       },
       {
         "cod": "C12",
         "hexaCode": "#AAE849",
-        "stock": 2200
+        "stock": 2100
       },
       {
         "cod": "C13",
@@ -335,37 +335,37 @@
       {
         "cod": "C17",
         "hexaCode": "#0680BC",
-        "stock": 2400
+        "stock": 2200
       },
       {
         "cod": "C18",
         "hexaCode": "#B5BEF4",
-        "stock": 1200
+        "stock": 1100
       },
       {
         "cod": "C19",
         "hexaCode": "#DEE4FE",
-        "stock": 2200
+        "stock": 2100
       },
       {
         "cod": "C20",
         "hexaCode": "#DBFE89",
-        "stock": 2800
+        "stock": 2650
       },
       {
         "cod": "C21",
         "hexaCode": "#0A48BC",
-        "stock": 4200
+        "stock": 3850
       },
       {
         "cod": "C22",
         "hexaCode": "#8899E7",
-        "stock": 2200
+        "stock": 2100
       },
       {
         "cod": "C23",
         "hexaCode": "#CDE7FE",
-        "stock": 5800
+        "stock": 5400
       },
       {
         "cod": "C24",
@@ -380,42 +380,42 @@
       {
         "cod": "D01",
         "hexaCode": "#1B0746",
-        "stock": 1200
+        "stock": 1600
       },
       {
         "cod": "D02",
         "hexaCode": "#C524A1",
-        "stock": 1000
+        "stock": 1500
       },
       {
         "cod": "D03",
         "hexaCode": "#720799",
-        "stock": 1500
+        "stock": 2000
       },
       {
         "cod": "D04",
         "hexaCode": "#FFA8AB",
-        "stock": 4300
+        "stock": 4650
       },
       {
         "cod": "D05",
         "hexaCode": "#081983",
-        "stock": 5200
+        "stock": 5350
       },
       {
         "cod": "D06",
         "hexaCode": "#D3298A",
-        "stock": 1500
+        "stock": 2000
       },
       {
         "cod": "D07",
         "hexaCode": "#631896",
-        "stock": 2100
+        "stock": 2550
       },
       {
         "cod": "D08",
         "hexaCode": "#FFB599",
-        "stock": 1500
+        "stock": 2000
       },
       {
         "cod": "D09",
@@ -425,22 +425,22 @@
       {
         "cod": "D10",
         "hexaCode": "#F351A0",
-        "stock": 1000
+        "stock": 1500
       },
       {
         "cod": "D11",
         "hexaCode": "#CF45B7",
-        "stock": 1700
+        "stock": 2100
       },
       {
         "cod": "D12",
         "hexaCode": "#FDCDBA",
-        "stock": 1700
+        "stock": 2100
       },
       {
         "cod": "D13",
         "hexaCode": "#9D2C0F",
-        "stock": 5700
+        "stock": 5850
       },
       {
         "cod": "D14",
@@ -450,52 +450,52 @@
       {
         "cod": "D15",
         "hexaCode": "#9C33B6",
-        "stock": 1000
+        "stock": 1500
       },
       {
         "cod": "D16",
         "hexaCode": "#FBD7D9",
-        "stock": 3800
+        "stock": 4150
       },
       {
         "cod": "D17",
         "hexaCode": "#C02069",
-        "stock": 0
+        "stock": 500
       },
       {
         "cod": "D18",
         "hexaCode": "#FF6DBC",
-        "stock": 600
+        "stock": 550
       },
       {
         "cod": "D19",
         "hexaCode": "#9764E5",
-        "stock": 500
+        "stock": 1000
       },
       {
         "cod": "D20",
         "hexaCode": "#FDE2E9",
-        "stock": 4400
+        "stock": 4700
       },
       {
         "cod": "D21",
         "hexaCode": "#B7046F",
-        "stock": 0
+        "stock": 500
       },
       {
         "cod": "D22",
         "hexaCode": "#FA71D7",
-        "stock": 2700
+        "stock": 3100
       },
       {
         "cod": "D23",
         "hexaCode": "#DEA1FD",
-        "stock": 2700
+        "stock": 3100
       },
       {
         "cod": "D24",
         "hexaCode": "#E3C9F0",
-        "stock": 3700
+        "stock": 4100
       }
     ]
   },
@@ -505,7 +505,7 @@
       {
         "cod": "E01",
         "hexaCode": "#2C0F0A",
-        "stock": 0
+        "stock": 3000
       },
       {
         "cod": "E02",
@@ -515,7 +515,7 @@
       {
         "cod": "E03",
         "hexaCode": "#FF6179",
-        "stock": 1200
+        "stock": 1100
       },
       {
         "cod": "E04",
@@ -530,27 +530,27 @@
       {
         "cod": "E06",
         "hexaCode": "#FB3D44",
-        "stock": 600
+        "stock": 550
       },
       {
         "cod": "E07",
         "hexaCode": "#FF6C41",
-        "stock": 1200
+        "stock": 1100
       },
       {
         "cod": "E08",
         "hexaCode": "#FE9C55",
-        "stock": 1200
+        "stock": 3100
       },
       {
         "cod": "E09",
         "hexaCode": "#C66845",
-        "stock": 3000
+        "stock": 2750
       },
       {
         "cod": "E10",
         "hexaCode": "#F4B570",
-        "stock": 7800
+        "stock": 7150
       },
       {
         "cod": "E11",
@@ -560,12 +560,12 @@
       {
         "cod": "E12",
         "hexaCode": "#FE9E63",
-        "stock": 1200
+        "stock": 1100
       },
       {
         "cod": "E13",
         "hexaCode": "#E2A071",
-        "stock": 5400
+        "stock": 4950
       },
       {
         "cod": "E14",
@@ -575,7 +575,7 @@
       {
         "cod": "E15",
         "hexaCode": "#FEC054",
-        "stock": 600
+        "stock": 550
       },
       {
         "cod": "E16",
@@ -585,7 +585,7 @@
       {
         "cod": "E17",
         "hexaCode": "#FDC082",
-        "stock": 6000
+        "stock": 5500
       },
       {
         "cod": "E18",
@@ -595,32 +595,32 @@
       {
         "cod": "E19",
         "hexaCode": "#ECD3B6",
-        "stock": 4800
+        "stock": 4350
       },
       {
         "cod": "E20",
         "hexaCode": "#FDCC82",
-        "stock": 2400
+        "stock": 2200
       },
       {
         "cod": "E21",
         "hexaCode": "#FFC6A6",
-        "stock": 600
+        "stock": 550
       },
       {
         "cod": "E22",
         "hexaCode": "#FCF8E0",
-        "stock": 2400
+        "stock": 2200
       },
       {
         "cod": "E23",
         "hexaCode": "#FFF4EB",
-        "stock": 2400
+        "stock": 2200
       },
       {
         "cod": "E24",
         "hexaCode": "#FEEAC8",
-        "stock": 1200
+        "stock": 1100
       }
     ]
   },
@@ -630,42 +630,42 @@
       {
         "cod": "F01",
         "hexaCode": "#442B2E",
-        "stock": 1200
+        "stock": 1100
       },
       {
         "cod": "F02",
         "hexaCode": "#734E3D",
-        "stock": 4800
+        "stock": 4450
       },
       {
         "cod": "F03",
         "hexaCode": "#B95944",
-        "stock": 600
+        "stock": 550
       },
       {
         "cod": "F04",
         "hexaCode": "#DB8869",
-        "stock": 600
+        "stock": 550
       },
       {
         "cod": "F05",
         "hexaCode": "#0D2A4C",
-        "stock": 1200
+        "stock": 3100
       },
       {
         "cod": "F06",
         "hexaCode": "#B3A19D",
-        "stock": 1200
+        "stock": 1100
       },
       {
         "cod": "F07",
         "hexaCode": "#AB92A8",
-        "stock": 1800
+        "stock": 1650
       },
       {
         "cod": "F08",
         "hexaCode": "#B0967E",
-        "stock": 1200
+        "stock": 1100
       },
       {
         "cod": "F09",
@@ -675,17 +675,17 @@
       {
         "cod": "F10",
         "hexaCode": "#8B6595",
-        "stock": 1800
+        "stock": 1650
       },
       {
         "cod": "F11",
         "hexaCode": "#9C7E8A",
-        "stock": 1800
+        "stock": 1650
       },
       {
         "cod": "F12",
         "hexaCode": "#D0C3B1",
-        "stock": 1200
+        "stock": 1100
       },
       {
         "cod": "F13",
@@ -695,42 +695,42 @@
       {
         "cod": "F14",
         "hexaCode": "#AFA580",
-        "stock": 3000
+        "stock": 2750
       },
       {
         "cod": "F15",
         "hexaCode": "#C7C2A3",
-        "stock": 3000
+        "stock": 2750
       },
       {
         "cod": "F16",
         "hexaCode": "#E7D8C4",
-        "stock": 4800
+        "stock": 4400
       },
       {
         "cod": "F17",
         "hexaCode": "#3B4926",
-        "stock": 1800
+        "stock": 1650
       },
       {
         "cod": "F18",
         "hexaCode": "#74907A",
-        "stock": 3000
+        "stock": 2750
       },
       {
         "cod": "F19",
         "hexaCode": "#ADBEAE",
-        "stock": 3000
+        "stock": 2750
       },
       {
         "cod": "F20",
         "hexaCode": "#E2E2E2",
-        "stock": 1200
+        "stock": 4600
       },
       {
         "cod": "F21",
         "hexaCode": "#666D73",
-        "stock": 1200
+        "stock": 1100
       },
       {
         "cod": "F22",
@@ -740,7 +740,7 @@
       {
         "cod": "F23",
         "hexaCode": "#BACCD8",
-        "stock": 600
+        "stock": 550
       },
       {
         "cod": "F24",
@@ -755,92 +755,92 @@
       {
         "cod": "G01",
         "hexaCode": "#088AAD",
-        "stock": 0
+        "stock": 500
       },
       {
         "cod": "G02",
         "hexaCode": "#24B7A0",
-        "stock": 0
+        "stock": 500
       },
       {
         "cod": "G03",
         "hexaCode": "#CDFBD6",
-        "stock": 1000
+        "stock": 1500
       },
       {
         "cod": "G04",
         "hexaCode": "#D0FAA6",
-        "stock": 1000
+        "stock": 1500
       },
       {
         "cod": "G05",
         "hexaCode": "#D3CCFE",
-        "stock": 2200
+        "stock": 2600
       },
       {
         "cod": "G06",
         "hexaCode": "#353993",
-        "stock": 0
+        "stock": 500
       },
       {
         "cod": "G07",
         "hexaCode": "#0769B8",
-        "stock": 4800
+        "stock": 4900
       },
       {
         "cod": "G08",
         "hexaCode": "#B8D9FE",
-        "stock": 1000
+        "stock": 1500
       },
       {
         "cod": "G09",
         "hexaCode": "#FDC395",
-        "stock": 500
+        "stock": 1000
       },
       {
         "cod": "G10",
         "hexaCode": "#FECF87",
-        "stock": 1200
+        "stock": 1100
       },
       {
         "cod": "G11",
         "hexaCode": "#FEF8A4",
-        "stock": 1200
+        "stock": 1600
       },
       {
         "cod": "G12",
         "hexaCode": "#FEFD73",
-        "stock": 1700
+        "stock": 2100
       },
       {
         "cod": "G13",
         "hexaCode": "#A74F22",
-        "stock": 500
+        "stock": 3000
       },
       {
         "cod": "G14",
         "hexaCode": "#FD9E26",
-        "stock": 0
+        "stock": 500
       },
       {
         "cod": "G15",
         "hexaCode": "#FDE3CB",
-        "stock": 2200
+        "stock": 2600
       },
       {
         "cod": "G16",
         "hexaCode": "#FFE3E2",
-        "stock": 3400
+        "stock": 3700
       },
       {
         "cod": "G17",
         "hexaCode": "#FD7A72",
-        "stock": 2800
+        "stock": 3150
       },
       {
         "cod": "G18",
         "hexaCode": "#FFD3F1",
-        "stock": 2200
+        "stock": 2600
       },
       {
         "cod": "G19",
@@ -850,27 +850,27 @@
       {
         "cod": "G20",
         "hexaCode": "#FFC9FC",
-        "stock": 2200
+        "stock": 2600
       },
       {
         "cod": "G21",
         "hexaCode": "#8CA1B2",
-        "stock": 1200
+        "stock": 3600
       },
       {
         "cod": "G22",
         "hexaCode": "#F6EEE1",
-        "stock": 3400
+        "stock": 6700
       },
       {
         "cod": "G23",
         "hexaCode": "#EFEFEF",
-        "stock": 1800
+        "stock": 5150
       },
       {
         "cod": "G24",
         "hexaCode": "#FFCFC7",
-        "stock": 500
+        "stock": 1000
       }
     ]
   },
@@ -880,122 +880,122 @@
       {
         "cod": "H01",
         "hexaCode": "#E3EFFD",
-        "stock": 500
+        "stock": 1000
       },
       {
         "cod": "H02",
         "hexaCode": "#E7FEE0",
-        "stock": 500
+        "stock": 1000
       },
       {
         "cod": "H03",
         "hexaCode": "#CDE668",
-        "stock": 500
+        "stock": 1000
       },
       {
         "cod": "H04",
         "hexaCode": "#FFFCEF",
-        "stock": 2900
+        "stock": 6200
       },
       {
         "cod": "H05",
         "hexaCode": "#A9D0EF",
-        "stock": 500
+        "stock": 1000
       },
       {
         "cod": "H06",
         "hexaCode": "#C3E5B4",
-        "stock": 500
+        "stock": 1000
       },
       {
         "cod": "H07",
         "hexaCode": "#CCDAB8",
-        "stock": 500
+        "stock": 1000
       },
       {
         "cod": "H08",
         "hexaCode": "#FEFBD3",
-        "stock": 500
+        "stock": 1000
       },
       {
         "cod": "H09",
         "hexaCode": "#A7BDE9",
-        "stock": 500
+        "stock": 1000
       },
       {
         "cod": "H10",
         "hexaCode": "#9EE5DF",
-        "stock": 500
+        "stock": 1000
       },
       {
         "cod": "H11",
         "hexaCode": "#BAC781",
-        "stock": 500
+        "stock": 1000
       },
       {
         "cod": "H12",
         "hexaCode": "#FECEAB",
-        "stock": 500
+        "stock": 1000
       },
       {
         "cod": "H13",
         "hexaCode": "#EAEAEA",
-        "stock": 500
+        "stock": 1000
       },
       {
         "cod": "H14",
         "hexaCode": "#91E5B2",
-        "stock": 500
+        "stock": 1000
       },
       {
         "cod": "H15",
         "hexaCode": "#F1D8FE",
-        "stock": 500
+        "stock": 1000
       },
       {
         "cod": "H16",
         "hexaCode": "#FDE295",
-        "stock": 500
+        "stock": 1000
       },
       {
         "cod": "H17",
         "hexaCode": "#A4A79E",
-        "stock": 500
+        "stock": 1000
       },
       {
         "cod": "H18",
         "hexaCode": "#7DC2FD",
-        "stock": 0
+        "stock": 500
       },
       {
         "cod": "H19",
         "hexaCode": "#FAB5CA",
-        "stock": 0
+        "stock": 500
       },
       {
         "cod": "H20",
         "hexaCode": "#FED57F",
-        "stock": 500
+        "stock": 1000
       },
       {
         "cod": "H21",
         "hexaCode": "#9FB5CC",
-        "stock": 500
+        "stock": 1000
       },
       {
         "cod": "H22",
         "hexaCode": "#54AFC2",
-        "stock": 0
+        "stock": 500
       },
       {
         "cod": "H23",
         "hexaCode": "#DDBCCF",
-        "stock": 500
+        "stock": 1000
       },
       {
         "cod": "H24",
         "hexaCode": "#FEAF6C",
-        "stock": 0
+        "stock": 500
       }
     ]
   },
@@ -1025,17 +1025,17 @@
       {
         "cod": "I05",
         "hexaCode": "#096668",
-        "stock": 3200
+        "stock": 3100
       },
       {
         "cod": "I06",
         "hexaCode": "#8C7937",
-        "stock": 1500
+        "stock": 2500
       },
       {
         "cod": "I07",
         "hexaCode": "#CA8E77",
-        "stock": 0
+        "stock": 2000
       },
       {
         "cod": "I08",
@@ -1085,7 +1085,7 @@
       {
         "cod": "I17",
         "hexaCode": "#232A19",
-        "stock": 2800
+        "stock": 2650
       },
       {
         "cod": "I18",
