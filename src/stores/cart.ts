@@ -36,8 +36,9 @@ export const useCartStore = () => {
         existingColor.quantity = 500;
       }
 
-      if (existingColor.quantity >= existingColor.stock) {
-        existingColor.quantity = existingColor.stock;
+      const maxQuantity = existingColor.stock < 500 ? existingColor.stock : Math.floor(existingColor.stock / 500) * 500;
+      if (existingColor.quantity >= maxQuantity) {
+        existingColor.quantity = maxQuantity;
       }
     }
   }
