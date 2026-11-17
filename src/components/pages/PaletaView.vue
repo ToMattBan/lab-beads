@@ -100,9 +100,12 @@
   function addQuantity() {
     desiredQuantity.value += 500;
 
-    if (desiredQuantity.value >= colorSelected.value!.stock) {
-      desiredQuantity.value = colorSelected.value!.stock;
-      error.value = `Há apenas ${ colorSelected.value!.stock } beads em estoque`;
+    const stock = colorSelected.value!.stock;
+    const maxQuantity = stock < 500 ? stock : Math.floor(stock / 500) * 500;
+
+    if (desiredQuantity.value >= maxQuantity) {
+      desiredQuantity.value = maxQuantity;
+      error.value = `Há apenas ${ maxQuantity } beads em estoque`;
     } else {
       error.value = null;
     }
