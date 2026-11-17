@@ -120,7 +120,7 @@
       {
         "cod": "A24",
         "hexaCode": "#FDDDC9",
-        "stock": 2600
+        "stock": 2100
       }
     ]
   },
@@ -149,7 +149,7 @@
       },
       {
         "cod": "B05",
-        "hexaCode": "#AB3906",
+        "hexaCode": "#873109",
         "stock": 3500
       },
       {
@@ -419,7 +419,7 @@
       },
       {
         "cod": "D09",
-        "hexaCode": "#600A09",
+        "hexaCode": "#660000",
         "stock": 2000
       },
       {
@@ -439,7 +439,7 @@
       },
       {
         "cod": "D13",
-        "hexaCode": "#9E2D0F",
+        "hexaCode": "#782200",
         "stock": 5850
       },
       {
@@ -524,7 +524,7 @@
       },
       {
         "cod": "E05",
-        "hexaCode": "#561D01",
+        "hexaCode": "#421701",
         "stock": 0
       },
       {
@@ -994,7 +994,7 @@
       },
       {
         "cod": "H24",
-        "hexaCode": "#FEAF6C",
+        "hexaCode": "#FFAA3B",
         "stock": 500
       }
     ]
