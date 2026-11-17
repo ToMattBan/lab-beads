@@ -27,14 +27,18 @@
       </figure>
 
       <figure class="quantity-picker">
-        <div>
+        <div v-if="!colorSelected || colorSelected.stock > 0">
           <button @click="removeQuantity"><img src="../../assets/icons/remove-icon.svg"></button>
           <div class="quantity">{{ desiredQuantity }}</div>
           <button @click="addQuantity"><img src="../../assets/icons/add-icon.svg"></button>
         </div>
+
+        <div v-else>
+          <div class="quantity">Sem estoque no momento</div>
+        </div>
       </figure>
 
-      <figure class="price">
+      <figure v-show="!colorSelected || colorSelected.stock > 0" class="price">
         <!-- <figcaption>Preço das Beads Selecionada:</figcaption> -->
         <div>R$ <span>{{ desiredQuantity / 100 }}</span>,00</div>
       </figure>
@@ -78,11 +82,16 @@
     colorsFromPaleta.forEach((color) => color.selected = false);
     color.selected = !originalState;
 
-    // desiredQuantity.value = 500;
     error.value = null;
 
     if (color.selected === true) {
       colorSelected.value = color;
+
+      if (desiredQuantity.value >= colorSelected.value.stock) {
+        desiredQuantity.value = colorSelected.value.stock;
+      } else if (desiredQuantity.value === 0) {
+        desiredQuantity.value = 500;
+      }
     } else {
       colorSelected.value = undefined;
     }
@@ -90,13 +99,20 @@
 
   function addQuantity() {
     desiredQuantity.value += 500;
-    error.value = null;
+
+    if (desiredQuantity.value >= colorSelected.value!.stock) {
+      desiredQuantity.value = colorSelected.value!.stock;
+      error.value = `Há apenas ${ colorSelected.value!.stock } beads em estoque`;
+    } else {
+      error.value = null;
+    }
   }
   function removeQuantity() {
-    if (desiredQuantity.value <= 500) {
-      desiredQuantity.value = 500;
-    } else {
-      desiredQuantity.value -= 500;
+    desiredQuantity.value = Math.ceil(desiredQuantity.value / 500) * 500 - 500;
+
+    const minQuantity = Math.min(500, colorSelected.value?.stock ?? 500);
+    if (desiredQuantity.value <= minQuantity) {
+      desiredQuantity.value = minQuantity;
     }
 
     error.value = null;
@@ -111,6 +127,7 @@
     cartStore.addItem({
       cod: colorSelected.value.cod,
       hexaCode: colorSelected.value.hexaCode,
+      stock: colorSelected.value.stock,
     }, desiredQuantity.value);
   }
 </script>

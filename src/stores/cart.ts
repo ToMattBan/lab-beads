@@ -26,12 +26,18 @@ export const useCartStore = () => {
         cod: color.cod,
         hexaCode: color.hexaCode,
         quantity: quantity,
+        stock: color.stock,
       });
     } else {
-      existingColor.quantity = existingColor.quantity + quantity;
+      existingColor.quantity = Math.ceil(existingColor.quantity / 500) * 500 + quantity;
 
-      if (existingColor.quantity < 500) {
+      const minQuantity = Math.min(500, existingColor.stock ?? 500);
+      if (existingColor.quantity <= minQuantity) {
         existingColor.quantity = 500;
+      }
+
+      if (existingColor.quantity >= existingColor.stock) {
+        existingColor.quantity = existingColor.stock;
       }
     }
   }
