@@ -54,7 +54,7 @@
       },
       {
         "cod": "A11",
-        "hexaCode": "#57D1FD",
+        "hexaCode": "#40BDF7",
         "stock": 4800
       },
       {
@@ -955,7 +955,7 @@
       {
         "cod": "H16",
         "hexaCode": "#FDE295",
-        "stock": 1000
+        "stock": 500
       },
       {
         "cod": "H17",
@@ -974,7 +974,7 @@
       },
       {
         "cod": "H20",
-        "hexaCode": "#FED57F",
+        "hexaCode": "#FFCB59",
         "stock": 1000
       },
       {
