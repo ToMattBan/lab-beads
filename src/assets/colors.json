@@ -25,12 +25,12 @@
       {
         "cod": "A05",
         "hexaCode": "#885129",
-        "stock": 1000
+        "stock": 0
       },
       {
         "cod": "A06",
         "hexaCode": "#0F37A9",
-        "stock": 2500
+        "stock": 2000
       },
       {
         "cod": "A07",
@@ -45,7 +45,7 @@
       {
         "cod": "A09",
         "hexaCode": "#D70427",
-        "stock": 1000
+        "stock": 500
       },
       {
         "cod": "A10",
@@ -95,7 +95,7 @@
       {
         "cod": "A19",
         "hexaCode": "#FFF421",
-        "stock": 1600
+        "stock": 1100
       },
       {
         "cod": "A20",
@@ -150,7 +150,7 @@
       {
         "cod": "B05",
         "hexaCode": "#873109",
-        "stock": 3500
+        "stock": 3000
       },
       {
         "cod": "B06",
@@ -415,7 +415,7 @@
       {
         "cod": "D08",
         "hexaCode": "#FFC0A8",
-        "stock": 2000
+        "stock": 1500
       },
       {
         "cod": "D09",
