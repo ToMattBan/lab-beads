@@ -130,7 +130,7 @@
       {
         "cod": "B01",
         "hexaCode": "#1B1B1B",
-        "stock": 1000
+        "stock": 0
       },
       {
         "cod": "B02",
@@ -1075,7 +1075,7 @@
       {
         "cod": "I15",
         "hexaCode": "#FFA075",
-        "stock": 500
+        "stock": 0
       },
       {
         "cod": "I16",
@@ -1105,7 +1105,7 @@
       {
         "cod": "I21",
         "hexaCode": "#140900",
-        "stock": 500
+        "stock": 0
       },
       {
         "cod": "I22",
