@@ -120,7 +120,7 @@
       {
         "cod": "A24",
         "hexaCode": "#FDDDC9",
-        "stock": 2100
+        "stock": 1100
       }
     ]
   },
@@ -285,7 +285,7 @@
       {
         "cod": "C07",
         "hexaCode": "#31A857",
-        "stock": 3550
+        "stock": 2550
       },
       {
         "cod": "C08",
@@ -595,7 +595,7 @@
       {
         "cod": "E19",
         "hexaCode": "#F3E2CE",
-        "stock": 4350
+        "stock": 3250
       },
       {
         "cod": "E20",
